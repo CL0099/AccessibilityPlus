@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local-only
+Backups/
+*.bak
+*.log
+sftp.json
+.env
+
+# Dependencies
+/vendor/
+/node_modules/

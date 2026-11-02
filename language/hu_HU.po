@@ -1,0 +1,224 @@
+# Hungarian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: hu-HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus beállításai"
+
+msgid "Enable Text Scaling"
+msgstr "Szövegméret engedélyezése"
+
+msgid "Allow users to scale UI text size."
+msgstr "A felhasználók módosíthatják a szöveg méretét."
+
+msgid "Enable Contrast Modes"
+msgstr "Kontrasztmódok engedélyezése"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "A felhasználók bekapcsolhatják a magas kontrasztot, az invertált színeket vagy a szürkeárnyalatot."
+
+msgid "Enable Link Highlighting"
+msgstr "Hivatkozáskiemelés engedélyezése"
+
+msgid "Allow users to highlight clickable links."
+msgstr "A felhasználók kiemelhetik a kattintható hivatkozásokat."
+
+msgid "Enable Font Options"
+msgstr "Betűtípus-beállítások engedélyezése"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "A felhasználók jobban olvasható (Atkinson Hyperlegible) vagy diszlexiabarát (OpenDyslexic) betűtípusra válthatnak."
+
+msgid "Enable Text Spacing"
+msgstr "Szövegtávolság engedélyezése"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "A felhasználók növelhetik a sor-, betű- és szótávolságot (WCAG 1.4.12 szerinti értékek)."
+
+msgid "Enable Stop Motion"
+msgstr "Mozgás leállításának engedélyezése"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "A felhasználók leállíthatják az animációkat, az áttűnéseket és más mozgó tartalmakat."
+
+msgid "Enable Big Cursor"
+msgstr "Nagy egérmutató engedélyezése"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "A felhasználók felnagyíthatják az egérmutatót (érintőképernyőn rejtve)."
+
+msgid "Default Widget Position"
+msgstr "A gomb alapértelmezett helye"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Válassza ki, melyik sarokban jelenjen meg először az akadálymentességi gomb."
+
+msgid "Bottom Right"
+msgstr "Jobbra lent"
+
+msgid "Bottom Left"
+msgstr "Balra lent"
+
+msgid "Accessibility Options"
+msgstr "Akadálymentességi beállítások"
+
+msgid "Accessibility Settings Panel"
+msgstr "Akadálymentességi beállítások panel"
+
+msgid "Accessibility"
+msgstr "Akadálymentesség"
+
+msgid "Move widget to left"
+msgstr "Gomb áthelyezése balra"
+
+msgid "Move widget to right"
+msgstr "Gomb áthelyezése jobbra"
+
+msgid "Close Panel"
+msgstr "Panel bezárása"
+
+msgid "Text Size"
+msgstr "Szövegméret"
+
+msgid "Decrease text size"
+msgstr "Szöveg kicsinyítése"
+
+msgid "Increase text size"
+msgstr "Szöveg nagyítása"
+
+msgid "Contrast"
+msgstr "Kontraszt"
+
+msgid "Links"
+msgstr "Hivatkozások"
+
+msgid "Highlight all clickable links"
+msgstr "Minden kattintható hivatkozás kiemelése"
+
+msgid "Font"
+msgstr "Betűtípus"
+
+msgid "Spacing"
+msgstr "Távolság"
+
+msgid "Wider text spacing"
+msgstr "Nagyobb szövegtávolság"
+
+msgid "Stop Motion"
+msgstr "Mozgás leállítása"
+
+msgid "Stop animations and moving content"
+msgstr "Animációk és mozgó tartalmak leállítása"
+
+msgid "Big Cursor"
+msgstr "Nagy mutató"
+
+msgid "Large mouse pointer"
+msgstr "Nagy egérmutató"
+
+msgid "Reset"
+msgstr "Visszaállítás"
+
+msgid "Reset all tools to default"
+msgstr "Minden eszköz visszaállítása"
+
+msgid "Close"
+msgstr "Bezárás"
+
+msgid "Close Accessibility Panel"
+msgstr "Akadálymentességi panel bezárása"
+
+msgid "On"
+msgstr "Be"
+
+msgid "Off"
+msgstr "Ki"
+
+msgid "High"
+msgstr "Magas"
+
+msgid "Invert"
+msgstr "Invertált"
+
+msgid "Gray"
+msgstr "Szürke"
+
+msgid "Default"
+msgstr "Alapértelmezett"
+
+msgid "Readable"
+msgstr "Olvasható"
+
+msgid "Dyslexic"
+msgstr "Diszlexia"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Kontraszt: %1$s (kattintson a módosításhoz)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Betűtípus: %1$s (kattintson a módosításhoz)"
+
+msgid "Accessibility menu opened"
+msgstr "Akadálymentességi menü megnyitva"
+
+msgid "Accessibility menu closed"
+msgstr "Akadálymentességi menü bezárva"
+
+msgid "All accessibility settings reset to default"
+msgstr "Minden akadálymentességi beállítás visszaállítva"
+
+msgid "Widget moved to the left"
+msgstr "Gomb balra helyezve"
+
+msgid "Widget moved to the right"
+msgstr "Gomb jobbra helyezve"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Szövegméret %1$s százalékra növelve"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Szövegméret %1$s százalékra csökkentve"
+
+msgid "Contrast mode off"
+msgstr "Kontrasztmód kikapcsolva"
+
+msgid "Contrast mode: %1$s"
+msgstr "Kontrasztmód: %1$s"
+
+msgid "Default font restored"
+msgstr "Alapértelmezett betűtípus visszaállítva"
+
+msgid "%1$s font enabled"
+msgstr "%1$s betűtípus bekapcsolva"
+
+msgid "Link highlighting enabled"
+msgstr "Hivatkozáskiemelés bekapcsolva"
+
+msgid "Link highlighting disabled"
+msgstr "Hivatkozáskiemelés kikapcsolva"
+
+msgid "Wider text spacing enabled"
+msgstr "Nagyobb szövegtávolság bekapcsolva"
+
+msgid "Wider text spacing disabled"
+msgstr "Nagyobb szövegtávolság kikapcsolva"
+
+msgid "Stop animations enabled"
+msgstr "Animációk leállítva"
+
+msgid "Stop animations disabled"
+msgstr "Animációk újraindítva"
+
+msgid "Large cursor enabled"
+msgstr "Nagy egérmutató bekapcsolva"
+
+msgid "Large cursor disabled"
+msgstr "Nagy egérmutató kikapcsolva"

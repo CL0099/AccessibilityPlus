@@ -1,0 +1,224 @@
+# Chinese (Traditional) translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: zh-TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus 選項"
+
+msgid "Enable Text Scaling"
+msgstr "啟用文字大小調整"
+
+msgid "Allow users to scale UI text size."
+msgstr "允許使用者調整文字大小。"
+
+msgid "Enable Contrast Modes"
+msgstr "啟用對比模式"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "允許使用者開啟高對比、反轉色彩或灰階模式。"
+
+msgid "Enable Link Highlighting"
+msgstr "啟用連結醒目提示"
+
+msgid "Allow users to highlight clickable links."
+msgstr "允許使用者醒目提示可點選的連結。"
+
+msgid "Enable Font Options"
+msgstr "啟用字型選項"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "允許使用者切換為更易讀的字型（Atkinson Hyperlegible）或適合閱讀障礙者的字型（OpenDyslexic）。"
+
+msgid "Enable Text Spacing"
+msgstr "啟用文字間距調整"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "允許使用者加大行距、字距與詞距（採用 WCAG 1.4.12 的數值）。"
+
+msgid "Enable Stop Motion"
+msgstr "啟用停止動態效果"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "允許使用者停止動畫、轉場效果和其他動態內容。"
+
+msgid "Enable Big Cursor"
+msgstr "啟用大游標"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "允許使用者放大滑鼠指標（在觸控螢幕上隱藏）。"
+
+msgid "Default Widget Position"
+msgstr "按鈕的預設位置"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "選擇無障礙按鈕最初顯示在哪個角落。"
+
+msgid "Bottom Right"
+msgstr "右下角"
+
+msgid "Bottom Left"
+msgstr "左下角"
+
+msgid "Accessibility Options"
+msgstr "無障礙選項"
+
+msgid "Accessibility Settings Panel"
+msgstr "無障礙設定面板"
+
+msgid "Accessibility"
+msgstr "無障礙"
+
+msgid "Move widget to left"
+msgstr "將按鈕移到左側"
+
+msgid "Move widget to right"
+msgstr "將按鈕移到右側"
+
+msgid "Close Panel"
+msgstr "關閉面板"
+
+msgid "Text Size"
+msgstr "文字大小"
+
+msgid "Decrease text size"
+msgstr "縮小文字"
+
+msgid "Increase text size"
+msgstr "放大文字"
+
+msgid "Contrast"
+msgstr "對比"
+
+msgid "Links"
+msgstr "連結"
+
+msgid "Highlight all clickable links"
+msgstr "醒目提示所有可點選的連結"
+
+msgid "Font"
+msgstr "字型"
+
+msgid "Spacing"
+msgstr "間距"
+
+msgid "Wider text spacing"
+msgstr "加大文字間距"
+
+msgid "Stop Motion"
+msgstr "停止動態效果"
+
+msgid "Stop animations and moving content"
+msgstr "停止動畫和動態內容"
+
+msgid "Big Cursor"
+msgstr "大游標"
+
+msgid "Large mouse pointer"
+msgstr "大型滑鼠指標"
+
+msgid "Reset"
+msgstr "重設"
+
+msgid "Reset all tools to default"
+msgstr "將所有工具恢復為預設值"
+
+msgid "Close"
+msgstr "關閉"
+
+msgid "Close Accessibility Panel"
+msgstr "關閉無障礙面板"
+
+msgid "On"
+msgstr "開"
+
+msgid "Off"
+msgstr "關"
+
+msgid "High"
+msgstr "高"
+
+msgid "Invert"
+msgstr "反轉"
+
+msgid "Gray"
+msgstr "灰階"
+
+msgid "Default"
+msgstr "預設"
+
+msgid "Readable"
+msgstr "易讀"
+
+msgid "Dyslexic"
+msgstr "閱讀障礙"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "對比：%1$s（點選以變更）"
+
+msgid "Font: %1$s (click to change)"
+msgstr "字型：%1$s（點選以變更）"
+
+msgid "Accessibility menu opened"
+msgstr "無障礙選單已開啟"
+
+msgid "Accessibility menu closed"
+msgstr "無障礙選單已關閉"
+
+msgid "All accessibility settings reset to default"
+msgstr "所有無障礙設定已恢復為預設值"
+
+msgid "Widget moved to the left"
+msgstr "按鈕已移到左側"
+
+msgid "Widget moved to the right"
+msgstr "按鈕已移到右側"
+
+msgid "Text size increased to %1$s percent"
+msgstr "文字大小已放大到 %1$s%"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "文字大小已縮小到 %1$s%"
+
+msgid "Contrast mode off"
+msgstr "對比模式已關閉"
+
+msgid "Contrast mode: %1$s"
+msgstr "對比模式：%1$s"
+
+msgid "Default font restored"
+msgstr "已恢復預設字型"
+
+msgid "%1$s font enabled"
+msgstr "已啟用%1$s字型"
+
+msgid "Link highlighting enabled"
+msgstr "連結醒目提示已開啟"
+
+msgid "Link highlighting disabled"
+msgstr "連結醒目提示已關閉"
+
+msgid "Wider text spacing enabled"
+msgstr "加大文字間距已開啟"
+
+msgid "Wider text spacing disabled"
+msgstr "加大文字間距已關閉"
+
+msgid "Stop animations enabled"
+msgstr "動畫已停止"
+
+msgid "Stop animations disabled"
+msgstr "動畫已恢復"
+
+msgid "Large cursor enabled"
+msgstr "大游標已開啟"
+
+msgid "Large cursor disabled"
+msgstr "大游標已關閉"

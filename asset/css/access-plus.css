@@ -1,0 +1,315 @@
+/* ==========================================================================
+   AccessibilityPlus Fonts (self-hosted, SIL Open Font License)
+   ========================================================================== */
+@font-face { font-family: 'Atkinson Hyperlegible'; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/atkinson-hyperlegible-400.woff2') format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible'; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/atkinson-hyperlegible-700.woff2') format('woff2'); }
+@font-face { font-family: 'OpenDyslexic'; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/OpenDyslexic-Regular.woff') format('woff'); }
+@font-face { font-family: 'OpenDyslexic'; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/OpenDyslexic-Bold.woff') format('woff'); }
+
+/* ==========================================================================
+   AccessibilityPlus FAB & Panel UI
+   ========================================================================== */
+
+/* Lock the body scroll when the panel is open */
+body.ap-panel-active-lock { overflow: hidden !important; }
+
+/* Screen-reader-only live region */
+.ap-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+#ap-access-fab {
+    position: fixed; bottom: 30px; width: 50px; height: 50px;
+    background-color: #0052cc; color: #fff; /* Distinct Accessibility Blue */
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 999998; border: 2px solid #fff; padding: 0;
+    transition: transform 0.2s ease, outline 0.2s ease;
+}
+#ap-access-fab:hover { transform: scale(1.1); }
+#ap-access-fab:focus { outline: 3px solid #003d99; outline-offset: 4px; }
+#ap-access-fab.pos-bottom-right { right: 30px; }
+#ap-access-fab.pos-bottom-left { left: 30px; }
+
+/* FAB Tooltip */
+#ap-access-fab::after {
+    content: attr(aria-label); position: absolute; top: 50%; transform: translateY(-50%);
+    background-color: #212529; color: #fff; padding: 8px 14px; border-radius: 4px;
+    font-size: 1rem; font-weight: 600; white-space: nowrap; opacity: 0; visibility: hidden;
+    pointer-events: none; transition: opacity 0.2s ease, visibility 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+#ap-access-fab:hover::after, #ap-access-fab:focus::after { opacity: 1; visibility: visible; }
+#ap-access-fab.pos-bottom-right::after { right: calc(100% + 15px); }
+#ap-access-fab.pos-bottom-left::after { left: calc(100% + 15px); }
+
+/* Force FAB tooltip closed via suppression class */
+#ap-access-fab.ap-hide-tooltip::after {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+@keyframes aaHeartbeat {
+    0% { transform: scale(1); } 15% { transform: scale(1.15); } 30% { transform: scale(1); }
+    45% { transform: scale(1.15); } 60% { transform: scale(1); }
+}
+/* Two beats (about 6 seconds), then stop */
+.ap-heartbeat { animation: aaHeartbeat 3s 2; }
+
+#ap-access-panel {
+    position: fixed;
+    top: 0;
+    bottom: 0; /* Legacy mobile fallback to pin to physical visible bottom */
+    width: 320px;
+    max-width: 100vw;
+    height: 100vh; /* Standard desktop fallback */
+    height: 100dvh; /* Modern mobile fix (iOS 15.4+) calculating dynamic visible viewport */
+    background: #fff; box-shadow: 0 0 20px rgba(0,0,0,0.3); z-index: 999999;
+    box-sizing: border-box; display: flex; flex-direction: column;
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+/* No font is set on the widget: it uses the site's body font, and its headings use the
+   theme's heading font. Buttons don't inherit the page font by default, so make them. */
+#ap-access-fab, #ap-access-panel button { font-family: inherit; }
+#ap-access-panel.pos-bottom-right { right: 0; transform: translateX(100%); }
+#ap-access-panel.pos-bottom-left { left: 0; transform: translateX(-100%); }
+#ap-access-panel.ap-open { transform: translateX(0); }
+
+/* Visible keyboard focus on every panel control */
+#ap-access-panel button:focus-visible { outline: 3px solid #003d99; outline-offset: 2px; }
+
+.ap-panel-header {
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid #ececec; padding: 10px 12px 10px 16px; background-color: #f8f9fa;
+}
+.ap-panel-header h2 { margin: 0; font-size: 1.1rem; color: #222; font-weight: 600; }
+.ap-header-actions { display: flex; align-items: center; gap: 4px; }
+.ap-close-btn { background: none; border: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: #666; padding: 0 4px; margin-left: 4px; }
+.ap-close-btn:hover, .ap-close-btn:focus { color: #000; }
+
+/* Widget position buttons (header) */
+.ap-pos-btn {
+    width: 32px; height: 32px; padding: 5px; background: none; color: #6c757d;
+    border: 2px solid transparent; border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+}
+.ap-pos-btn svg { width: 18px; height: 18px; }
+.ap-pos-btn:hover, .ap-pos-btn:focus { background: #e9ecef; color: #212529; }
+.ap-pos-btn.active { color: #0052cc; border-color: #0052cc; background: #fff; }
+
+/* Strict overflow control to prevent any horizontal scrolling */
+.ap-panel-body { padding: 16px; overflow-y: auto; overflow-x: hidden; flex-grow: 1; box-sizing: border-box; }
+
+/* Panel Tooltips: Contained and aligned to prevent edge clipping */
+.ap-tooltip-target { position: relative; }
+#ap-access-panel .ap-tooltip-target::after {
+    content: attr(aria-label);
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #212529;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    width: max-content;
+    max-width: 220px;
+    white-space: normal;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 10000;
+}
+
+/* Keep grid tooltips inside the panel: left column aligns left, right column aligns right */
+#ap-access-panel .ap-tools-grid button:nth-child(odd)::after { left: 0; transform: none; }
+#ap-access-panel .ap-tools-grid button:nth-child(even)::after { left: auto; right: 0; transform: none; }
+
+/* Header tooltips open downward and align right */
+#ap-access-panel .ap-header-actions .ap-tooltip-target::after { top: calc(100% + 6px); bottom: auto; left: auto; right: 0; transform: none; }
+
+#ap-access-panel .ap-tooltip-target:hover::after, #ap-access-panel .ap-tooltip-target:focus-visible::after { opacity: 1; visibility: visible; }
+
+/* Touch-only devices: a tapped button keeps focus, so tooltips would stick open */
+@media (any-hover: none) {
+    #ap-access-panel .ap-tooltip-target::after { display: none; }
+}
+
+.aagrid-paginator .ap-tooltip-target::after { top: auto; bottom: calc(100% + 10px); left: 50%; transform: translateX(-50%); }
+.ap-tooltip-wrapper { display: inline-block; position: relative; }
+
+/* Text Size: heading above a full-width stepper */
+.ap-text-row { margin-bottom: 16px; }
+.ap-text-row h3 { margin: 0 0 8px; font-size: 0.95rem; color: #222; font-weight: 700; }
+.ap-stepper { display: flex; align-items: stretch; gap: 12px; }
+.ap-stepper button {
+    flex: 1; height: 48px; background: #e9ecef; border: 2px solid #ced4da;
+    border-radius: 6px; cursor: pointer; font-size: 1.6rem; font-weight: bold;
+    color: #212529; display: flex; align-items: center; justify-content: center; line-height: 1; padding: 0;
+}
+.ap-stepper button:hover, .ap-stepper button:focus { background-color: #dde0e3; color: #000; }
+.ap-readonly-badge {
+    flex: 1; min-width: 4.2em; display: flex; align-items: center; justify-content: center;
+    font-weight: 700; color: #212529; font-size: 1.15rem; box-sizing: border-box;
+}
+
+/* Tools Grid */
+.ap-tools-grid { display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: 1fr; gap: 12px; }
+.ap-grid-btn {
+    display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    background: #e9ecef; border: 2px solid #ced4da; border-radius: 6px; padding: 10px 4px 8px;
+    cursor: pointer; color: #212529; transition: all 0.2s ease; position: relative; min-width: 0;
+}
+.ap-grid-btn svg { width: 22px; height: 22px; margin-bottom: 6px; fill: currentColor; flex-shrink: 0; }
+.ap-grid-btn .ap-btn-label { font-size: 0.8rem; font-weight: 600; text-align: center; line-height: 1.2; }
+.ap-grid-btn .ap-btn-state { font-size: 0.75rem; text-align: center; line-height: 1.2; margin-top: 2px; }
+.ap-grid-btn:hover, .ap-grid-btn:focus { background: #dde0e3; border-color: #adb5bd; }
+.ap-grid-btn.active { background: #fff; color: #0052cc; border-color: #0052cc; }
+.ap-grid-btn.active::before {
+    content: '✔'; position: absolute; top: 4px; right: 4px; background: #0052cc;
+    color: #fff; font-size: 10px; font-weight: bold; width: 16px; height: 16px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+}
+
+/* Step dots on cycling buttons (Contrast, Font) */
+.ap-dots { display: flex; gap: 4px; margin-top: 5px; }
+.ap-dots i { width: 6px; height: 6px; border-radius: 50%; background: #adb5bd; }
+.ap-dots i.on { background: #0052cc; }
+
+/* Big Cursor does nothing on touch-only devices (touch laptops with a mouse keep it) */
+@media (any-hover: none) {
+    #ap-toggle-cursor { display: none; }
+}
+
+/* Split Sticky Footer */
+.ap-panel-footer {
+    position: sticky; bottom: 0; background: #fff; padding: 16px;
+    border-top: 1px solid #ececec; box-shadow: 0 -4px 10px rgba(0,0,0,0.05); display: flex; gap: 12px;
+}
+.ap-reset-btn {
+    flex: 1; padding: 12px; background: #f8f9fa; color: #495057; border: 2px solid #ced4da;
+    border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 0.9rem; transition: all 0.2s ease;
+}
+.ap-reset-btn:hover, .ap-reset-btn:focus { background: #e2e6ea; color: #212529; border-color: #dae0e5; }
+.ap-close-panel-btn {
+    flex: 2; padding: 12px; background: #0052cc; color: #fff; font-weight: bold;
+    font-size: 1rem; border-radius: 4px; border: none; cursor: pointer; transition: background 0.2s ease;
+}
+.ap-close-panel-btn:hover, .ap-close-panel-btn:focus { background: #003d99; }
+
+/* Respect the visitor's system "reduce motion" setting */
+@media (prefers-reduced-motion: reduce) {
+    .ap-heartbeat { animation: none; }
+    #ap-access-panel, #ap-access-fab { transition: none; }
+}
+
+/* ==========================================================================
+   Accessibility CSS Guardrails & Overrides (Scaling up to 200%)
+   ========================================================================== */
+html.ap-text-110 { font-size: 110% !important; }
+html.ap-text-120 { font-size: 120% !important; }
+html.ap-text-130 { font-size: 130% !important; }
+html.ap-text-140 { font-size: 140% !important; }
+html.ap-text-150 { font-size: 150% !important; }
+html.ap-text-160 { font-size: 160% !important; }
+html.ap-text-170 { font-size: 170% !important; }
+html.ap-text-180 { font-size: 180% !important; }
+html.ap-text-190 { font-size: 190% !important; }
+html.ap-text-200 { font-size: 200% !important; }
+
+/* Tabulator Grid explicitly forced wildcard scaling */
+html.ap-text-110 .tabulator-cell, html.ap-text-110 .tabulator-cell *, html.ap-text-110 .tabulator-col-title, html.ap-text-110 .tabulator-col-title *, html.ap-text-110 .tabulator-header-filter * { font-size: 15.4px !important; }
+html.ap-text-120 .tabulator-cell, html.ap-text-120 .tabulator-cell *, html.ap-text-120 .tabulator-col-title, html.ap-text-120 .tabulator-col-title *, html.ap-text-120 .tabulator-header-filter * { font-size: 16.8px !important; }
+html.ap-text-130 .tabulator-cell, html.ap-text-130 .tabulator-cell *, html.ap-text-130 .tabulator-col-title, html.ap-text-130 .tabulator-col-title *, html.ap-text-130 .tabulator-header-filter * { font-size: 18.2px !important; }
+html.ap-text-140 .tabulator-cell, html.ap-text-140 .tabulator-cell *, html.ap-text-140 .tabulator-col-title, html.ap-text-140 .tabulator-col-title *, html.ap-text-140 .tabulator-header-filter * { font-size: 19.6px !important; }
+html.ap-text-150 .tabulator-cell, html.ap-text-150 .tabulator-cell *, html.ap-text-150 .tabulator-col-title, html.ap-text-150 .tabulator-col-title *, html.ap-text-150 .tabulator-header-filter * { font-size: 21.0px !important; }
+html.ap-text-160 .tabulator-cell, html.ap-text-160 .tabulator-cell *, html.ap-text-160 .tabulator-col-title, html.ap-text-160 .tabulator-col-title *, html.ap-text-160 .tabulator-header-filter * { font-size: 22.4px !important; }
+html.ap-text-170 .tabulator-cell, html.ap-text-170 .tabulator-cell *, html.ap-text-170 .tabulator-col-title, html.ap-text-170 .tabulator-col-title *, html.ap-text-170 .tabulator-header-filter * { font-size: 23.8px !important; }
+html.ap-text-180 .tabulator-cell, html.ap-text-180 .tabulator-cell *, html.ap-text-180 .tabulator-col-title, html.ap-text-180 .tabulator-col-title *, html.ap-text-180 .tabulator-header-filter * { font-size: 25.2px !important; }
+html.ap-text-190 .tabulator-cell, html.ap-text-190 .tabulator-cell *, html.ap-text-190 .tabulator-col-title, html.ap-text-190 .tabulator-col-title *, html.ap-text-190 .tabulator-header-filter * { font-size: 26.6px !important; }
+html.ap-text-200 .tabulator-cell, html.ap-text-200 .tabulator-cell *, html.ap-text-200 .tabulator-col-title, html.ap-text-200 .tabulator-col-title *, html.ap-text-200 .tabulator-header-filter * { font-size: 28.0px !important; }
+
+/* aaGrid Custom Paginator Footer explicitly forced wildcard scaling + Specific Spinner Input override */
+html.ap-text-110 .aagrid-paginator, html.ap-text-110 .aagrid-paginator *, html.ap-text-110 .aagrid-paginator input, html.ap-text-110 .aagrid-paginator select, html.ap-text-110 #aagrid-page-input { font-size: 15.4px !important; }
+html.ap-text-120 .aagrid-paginator, html.ap-text-120 .aagrid-paginator *, html.ap-text-120 .aagrid-paginator input, html.ap-text-120 .aagrid-paginator select, html.ap-text-120 #aagrid-page-input { font-size: 16.8px !important; }
+html.ap-text-130 .aagrid-paginator, html.ap-text-130 .aagrid-paginator *, html.ap-text-130 .aagrid-paginator input, html.ap-text-130 .aagrid-paginator select, html.ap-text-130 #aagrid-page-input { font-size: 18.2px !important; }
+html.ap-text-140 .aagrid-paginator, html.ap-text-140 .aagrid-paginator *, html.ap-text-140 .aagrid-paginator input, html.ap-text-140 .aagrid-paginator select, html.ap-text-140 #aagrid-page-input { font-size: 19.6px !important; }
+html.ap-text-150 .aagrid-paginator, html.ap-text-150 .aagrid-paginator *, html.ap-text-150 .aagrid-paginator input, html.ap-text-150 .aagrid-paginator select, html.ap-text-150 #aagrid-page-input { font-size: 21.0px !important; }
+html.ap-text-160 .aagrid-paginator, html.ap-text-160 .aagrid-paginator *, html.ap-text-160 .aagrid-paginator input, html.ap-text-160 .aagrid-paginator select, html.ap-text-160 #aagrid-page-input { font-size: 22.4px !important; }
+html.ap-text-170 .aagrid-paginator, html.ap-text-170 .aagrid-paginator *, html.ap-text-170 .aagrid-paginator input, html.ap-text-170 .aagrid-paginator select, html.ap-text-170 #aagrid-page-input { font-size: 23.8px !important; }
+html.ap-text-180 .aagrid-paginator, html.ap-text-180 .aagrid-paginator *, html.ap-text-180 .aagrid-paginator input, html.ap-text-180 .aagrid-paginator select, html.ap-text-180 #aagrid-page-input { font-size: 25.2px !important; }
+html.ap-text-190 .aagrid-paginator, html.ap-text-190 .aagrid-paginator *, html.ap-text-190 .aagrid-paginator input, html.ap-text-190 .aagrid-paginator select, html.ap-text-190 #aagrid-page-input { font-size: 26.6px !important; }
+html.ap-text-200 .aagrid-paginator, html.ap-text-200 .aagrid-paginator *, html.ap-text-200 .aagrid-paginator input, html.ap-text-200 .aagrid-paginator select, html.ap-text-200 #aagrid-page-input { font-size: 28.0px !important; }
+
+html[class*="ap-text-"] .aagrid-paginator, html[class*="ap-text-"] .aagrid-paginator .aagrid-paginator-center, html[class*="ap-text-"] .aagrid-paginator .aagrid-paginator-right { height: auto !important; flex-wrap: wrap; }
+html[class*="ap-text-"] .aagrid-paginator input, html[class*="ap-text-"] .aagrid-paginator select, html[class*="ap-text-"] .aagrid-paginator button { height: auto !important; min-height: 30px; padding-top: 4px; padding-bottom: 4px; }
+
+/* aaMultiViewer handles its own text scaling (rem) and header layout */
+
+/* ==========================================================================
+   Contrast Modes
+   ========================================================================== */
+
+/* High contrast: white text on black, yellow underlined links. Images, viewers and the widget are left alone */
+html.ap-contrast-high, html.ap-contrast-high body,
+html.ap-contrast-high body :where(*:not(#ap-access-fab, #ap-access-fab *, #ap-access-panel, #ap-access-panel *, img, svg, svg *, picture, video, canvas, iframe, .openseadragon-container *, .aamv-viewer-container *)) {
+    background-color: #000 !important; color: #fff !important; border-color: #fff !important;
+}
+html.ap-contrast-high body :where(a:not(#ap-access-panel *), a:not(#ap-access-panel *) *) { color: #ff0 !important; text-decoration: underline !important; }
+
+html.ap-contrast-invert { filter: invert(1) hue-rotate(180deg); background: #000; }
+html.ap-contrast-grayscale { filter: grayscale(100%); }
+
+/* Flip media, background images and the widget back so they look normal */
+html.ap-contrast-invert img, html.ap-contrast-invert picture, html.ap-contrast-invert video, html.ap-contrast-invert canvas, html.ap-contrast-invert [style*="background-image"], html.ap-contrast-invert #ap-access-fab, html.ap-contrast-invert #ap-access-panel {
+    filter: invert(1) hue-rotate(180deg) !important;
+}
+html.ap-contrast-invert picture img, html.ap-contrast-invert [style*="background-image"] img { filter: none !important; }
+
+/* ==========================================================================
+   Link Highlighting
+   ========================================================================== */
+html.ap-links-highlight body :where(a:not(#ap-access-panel *)) { background-color: #ffeb3b !important; color: #000 !important; text-decoration: underline !important; text-decoration-thickness: 2px !important; }
+html.ap-links-highlight body :where(a:not(#ap-access-panel *) *) { color: #000 !important; }
+
+/* ==========================================================================
+   Fonts: Readable (Atkinson Hyperlegible) and Dyslexic (OpenDyslexic)
+   Icon fonts, code, image viewers and the widget keep their own fonts
+   ========================================================================== */
+html.ap-font-readable body,
+html.ap-font-readable body :where(*:not(#ap-access-fab, #ap-access-fab *, #ap-access-panel, #ap-access-panel *, .fa, .fas, .far, .fab, .material-icons, [class*="icon"], code, pre, kbd, .openseadragon-container *, .aamv-viewer-container *)) {
+    font-family: 'Atkinson Hyperlegible', Verdana, sans-serif !important;
+}
+html.ap-font-dyslexic body,
+html.ap-font-dyslexic body :where(*:not(#ap-access-fab, #ap-access-fab *, #ap-access-panel, #ap-access-panel *, .fa, .fas, .far, .fab, .material-icons, [class*="icon"], code, pre, kbd, .openseadragon-container *, .aamv-viewer-container *)) {
+    font-family: 'OpenDyslexic', 'Comic Sans MS', sans-serif !important;
+}
+
+/* ==========================================================================
+   Text Spacing (WCAG 1.4.12 values)
+   ========================================================================== */
+html.ap-spacing-on body :where(*:not(#ap-access-fab, #ap-access-fab *, #ap-access-panel, #ap-access-panel *, .openseadragon-container *, .aamv-viewer-container *)) {
+    line-height: 1.5 !important; letter-spacing: 0.12em !important; word-spacing: 0.16em !important;
+}
+html.ap-spacing-on body :where(p:not(#ap-access-panel *)) { margin-bottom: 2em !important; }
+
+/* ==========================================================================
+   Stop Motion (the theme also pauses the home page carousel)
+   ========================================================================== */
+html.ap-motion-stop *, html.ap-motion-stop *::before, html.ap-motion-stop *::after {
+    animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important; scroll-behavior: auto !important;
+}
+
+/* ==========================================================================
+   Big Cursor (black arrow / hand with white outline, about 2.5x normal size)
+   ========================================================================== */
+html.ap-cursor-big, html.ap-cursor-big :where(*:not(input, textarea, [contenteditable])) {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Cpath d='M5 2v18l5-5 3.5 7 3-1.5L13 13.5h7z' fill='black' stroke='white' stroke-width='1.2' stroke-linejoin='round'/%3E%3C/svg%3E") 10 4, auto !important;
+}
+html.ap-cursor-big :is(a, button, [role="button"], .button, label, select, summary),
+html.ap-cursor-big :is(a, button, [role="button"], .button) :where(*) {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Cpath d='M9 2.5a1.5 1.5 0 0 1 3 0V10h.5a1.5 1.5 0 0 1 1.5 1 1.5 1.5 0 0 1 2.5.6 1.5 1.5 0 0 1 2.5 1.1V17c0 3-2 5-5 5h-2c-2 0-3-.8-4-2.2L5 14.6a1.4 1.4 0 0 1 2.2-1.8L9 14.5z' fill='black' stroke='white' stroke-width='1.2' stroke-linejoin='round'/%3E%3C/svg%3E") 21 2, pointer !important;
+}

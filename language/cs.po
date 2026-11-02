@@ -1,0 +1,224 @@
+# Czech translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Možnosti Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Povolit změnu velikosti textu"
+
+msgid "Allow users to scale UI text size."
+msgstr "Umožnit uživatelům měnit velikost textu."
+
+msgid "Enable Contrast Modes"
+msgstr "Povolit režimy kontrastu"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Umožnit uživatelům zapnout vysoký kontrast, inverzní barvy nebo stupně šedi."
+
+msgid "Enable Link Highlighting"
+msgstr "Povolit zvýraznění odkazů"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Umožnit uživatelům zvýraznit klikací odkazy."
+
+msgid "Enable Font Options"
+msgstr "Povolit možnosti písma"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Umožnit uživatelům přepnout na čitelnější písmo (Atkinson Hyperlegible) nebo písmo vhodné při dyslexii (OpenDyslexic)."
+
+msgid "Enable Text Spacing"
+msgstr "Povolit rozestupy textu"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Umožnit uživatelům zvětšit řádkování a rozestupy mezi písmeny a slovy (hodnoty podle WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Povolit zastavení pohybu"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Umožnit uživatelům zastavit animace, přechody a další pohyblivý obsah."
+
+msgid "Enable Big Cursor"
+msgstr "Povolit velký kurzor"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Umožnit uživatelům zvětšit ukazatel myši (na dotykových obrazovkách skryto)."
+
+msgid "Default Widget Position"
+msgstr "Výchozí umístění tlačítka"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Vyberte roh, ve kterém se tlačítko přístupnosti zpočátku zobrazí."
+
+msgid "Bottom Right"
+msgstr "Vpravo dole"
+
+msgid "Bottom Left"
+msgstr "Vlevo dole"
+
+msgid "Accessibility Options"
+msgstr "Možnosti přístupnosti"
+
+msgid "Accessibility Settings Panel"
+msgstr "Panel nastavení přístupnosti"
+
+msgid "Accessibility"
+msgstr "Přístupnost"
+
+msgid "Move widget to left"
+msgstr "Přesunout tlačítko doleva"
+
+msgid "Move widget to right"
+msgstr "Přesunout tlačítko doprava"
+
+msgid "Close Panel"
+msgstr "Zavřít panel"
+
+msgid "Text Size"
+msgstr "Velikost textu"
+
+msgid "Decrease text size"
+msgstr "Zmenšit text"
+
+msgid "Increase text size"
+msgstr "Zvětšit text"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Links"
+msgstr "Odkazy"
+
+msgid "Highlight all clickable links"
+msgstr "Zvýraznit všechny klikací odkazy"
+
+msgid "Font"
+msgstr "Písmo"
+
+msgid "Spacing"
+msgstr "Rozestupy"
+
+msgid "Wider text spacing"
+msgstr "Větší rozestupy textu"
+
+msgid "Stop Motion"
+msgstr "Zastavit pohyb"
+
+msgid "Stop animations and moving content"
+msgstr "Zastavit animace a pohyblivý obsah"
+
+msgid "Big Cursor"
+msgstr "Velký kurzor"
+
+msgid "Large mouse pointer"
+msgstr "Velký ukazatel myši"
+
+msgid "Reset"
+msgstr "Obnovit"
+
+msgid "Reset all tools to default"
+msgstr "Obnovit výchozí nastavení všech nástrojů"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Close Accessibility Panel"
+msgstr "Zavřít panel přístupnosti"
+
+msgid "On"
+msgstr "Zap."
+
+msgid "Off"
+msgstr "Vyp."
+
+msgid "High"
+msgstr "Vysoký"
+
+msgid "Invert"
+msgstr "Inverzní"
+
+msgid "Gray"
+msgstr "Šedý"
+
+msgid "Default"
+msgstr "Výchozí"
+
+msgid "Readable"
+msgstr "Čitelné"
+
+msgid "Dyslexic"
+msgstr "Dyslexie"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Kontrast: %1$s (kliknutím změníte)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Písmo: %1$s (kliknutím změníte)"
+
+msgid "Accessibility menu opened"
+msgstr "Nabídka přístupnosti otevřena"
+
+msgid "Accessibility menu closed"
+msgstr "Nabídka přístupnosti zavřena"
+
+msgid "All accessibility settings reset to default"
+msgstr "Všechna nastavení přístupnosti byla obnovena"
+
+msgid "Widget moved to the left"
+msgstr "Tlačítko přesunuto doleva"
+
+msgid "Widget moved to the right"
+msgstr "Tlačítko přesunuto doprava"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Velikost textu zvětšena na %1$s procent"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Velikost textu zmenšena na %1$s procent"
+
+msgid "Contrast mode off"
+msgstr "Režim kontrastu vypnut"
+
+msgid "Contrast mode: %1$s"
+msgstr "Režim kontrastu: %1$s"
+
+msgid "Default font restored"
+msgstr "Výchozí písmo obnoveno"
+
+msgid "%1$s font enabled"
+msgstr "Písmo %1$s zapnuto"
+
+msgid "Link highlighting enabled"
+msgstr "Zvýraznění odkazů zapnuto"
+
+msgid "Link highlighting disabled"
+msgstr "Zvýraznění odkazů vypnuto"
+
+msgid "Wider text spacing enabled"
+msgstr "Větší rozestupy textu zapnuty"
+
+msgid "Wider text spacing disabled"
+msgstr "Větší rozestupy textu vypnuty"
+
+msgid "Stop animations enabled"
+msgstr "Animace zastaveny"
+
+msgid "Stop animations disabled"
+msgstr "Animace obnoveny"
+
+msgid "Large cursor enabled"
+msgstr "Velký kurzor zapnut"
+
+msgid "Large cursor disabled"
+msgstr "Velký kurzor vypnut"

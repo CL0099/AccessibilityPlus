@@ -1,0 +1,224 @@
+# Arabic translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "خيارات Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "تفعيل حجم النص"
+
+msgid "Allow users to scale UI text size."
+msgstr "السماح للمستخدمين بتغيير حجم النص."
+
+msgid "Enable Contrast Modes"
+msgstr "تفعيل أوضاع التباين"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "السماح للمستخدمين بتشغيل التباين العالي أو عكس الألوان أو التدرج الرمادي."
+
+msgid "Enable Link Highlighting"
+msgstr "تفعيل إبراز الروابط"
+
+msgid "Allow users to highlight clickable links."
+msgstr "السماح للمستخدمين بإبراز الروابط القابلة للنقر."
+
+msgid "Enable Font Options"
+msgstr "تفعيل خيارات الخط"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "السماح للمستخدمين بالتبديل إلى خط أسهل قراءة (Atkinson Hyperlegible) أو خط مناسب لعسر القراءة (OpenDyslexic)."
+
+msgid "Enable Text Spacing"
+msgstr "تفعيل تباعد النص"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "السماح للمستخدمين بزيادة التباعد بين الأسطر والحروف والكلمات (قيم المعيار WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "تفعيل إيقاف الحركة"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "السماح للمستخدمين بإيقاف الرسوم المتحركة والانتقالات وغيرها من المحتوى المتحرك."
+
+msgid "Enable Big Cursor"
+msgstr "تفعيل المؤشر الكبير"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "السماح للمستخدمين بتكبير مؤشر الفأرة (مخفي على الشاشات اللمسية)."
+
+msgid "Default Widget Position"
+msgstr "الموضع الافتراضي للزر"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "اختر الزاوية التي يظهر فيها زر إمكانية الوصول في البداية."
+
+msgid "Bottom Right"
+msgstr "أسفل اليمين"
+
+msgid "Bottom Left"
+msgstr "أسفل اليسار"
+
+msgid "Accessibility Options"
+msgstr "خيارات إمكانية الوصول"
+
+msgid "Accessibility Settings Panel"
+msgstr "لوحة إعدادات إمكانية الوصول"
+
+msgid "Accessibility"
+msgstr "إمكانية الوصول"
+
+msgid "Move widget to left"
+msgstr "نقل الزر إلى اليسار"
+
+msgid "Move widget to right"
+msgstr "نقل الزر إلى اليمين"
+
+msgid "Close Panel"
+msgstr "إغلاق اللوحة"
+
+msgid "Text Size"
+msgstr "حجم النص"
+
+msgid "Decrease text size"
+msgstr "تصغير النص"
+
+msgid "Increase text size"
+msgstr "تكبير النص"
+
+msgid "Contrast"
+msgstr "التباين"
+
+msgid "Links"
+msgstr "الروابط"
+
+msgid "Highlight all clickable links"
+msgstr "إبراز جميع الروابط القابلة للنقر"
+
+msgid "Font"
+msgstr "الخط"
+
+msgid "Spacing"
+msgstr "التباعد"
+
+msgid "Wider text spacing"
+msgstr "تباعد أكبر للنص"
+
+msgid "Stop Motion"
+msgstr "إيقاف الحركة"
+
+msgid "Stop animations and moving content"
+msgstr "إيقاف الرسوم المتحركة والمحتوى المتحرك"
+
+msgid "Big Cursor"
+msgstr "مؤشر كبير"
+
+msgid "Large mouse pointer"
+msgstr "مؤشر فأرة كبير"
+
+msgid "Reset"
+msgstr "إعادة الضبط"
+
+msgid "Reset all tools to default"
+msgstr "إعادة جميع الأدوات إلى الوضع الافتراضي"
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Close Accessibility Panel"
+msgstr "إغلاق لوحة إمكانية الوصول"
+
+msgid "On"
+msgstr "مفعّل"
+
+msgid "Off"
+msgstr "معطّل"
+
+msgid "High"
+msgstr "عالٍ"
+
+msgid "Invert"
+msgstr "معكوس"
+
+msgid "Gray"
+msgstr "رمادي"
+
+msgid "Default"
+msgstr "افتراضي"
+
+msgid "Readable"
+msgstr "سهل القراءة"
+
+msgid "Dyslexic"
+msgstr "عسر القراءة"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "التباين: %1$s (انقر للتغيير)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "الخط: %1$s (انقر للتغيير)"
+
+msgid "Accessibility menu opened"
+msgstr "تم فتح قائمة إمكانية الوصول"
+
+msgid "Accessibility menu closed"
+msgstr "تم إغلاق قائمة إمكانية الوصول"
+
+msgid "All accessibility settings reset to default"
+msgstr "تمت إعادة ضبط جميع إعدادات إمكانية الوصول"
+
+msgid "Widget moved to the left"
+msgstr "تم نقل الزر إلى اليسار"
+
+msgid "Widget moved to the right"
+msgstr "تم نقل الزر إلى اليمين"
+
+msgid "Text size increased to %1$s percent"
+msgstr "تم تكبير حجم النص إلى %1$s بالمئة"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "تم تصغير حجم النص إلى %1$s بالمئة"
+
+msgid "Contrast mode off"
+msgstr "وضع التباين معطّل"
+
+msgid "Contrast mode: %1$s"
+msgstr "وضع التباين: %1$s"
+
+msgid "Default font restored"
+msgstr "تمت استعادة الخط الافتراضي"
+
+msgid "%1$s font enabled"
+msgstr "تم تفعيل الخط: %1$s"
+
+msgid "Link highlighting enabled"
+msgstr "تم تفعيل إبراز الروابط"
+
+msgid "Link highlighting disabled"
+msgstr "تم تعطيل إبراز الروابط"
+
+msgid "Wider text spacing enabled"
+msgstr "تم تفعيل التباعد الأكبر للنص"
+
+msgid "Wider text spacing disabled"
+msgstr "تم تعطيل التباعد الأكبر للنص"
+
+msgid "Stop animations enabled"
+msgstr "تم إيقاف الرسوم المتحركة"
+
+msgid "Stop animations disabled"
+msgstr "تم استئناف الرسوم المتحركة"
+
+msgid "Large cursor enabled"
+msgstr "تم تفعيل المؤشر الكبير"
+
+msgid "Large cursor disabled"
+msgstr "تم تعطيل المؤشر الكبير"

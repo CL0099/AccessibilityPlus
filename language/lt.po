@@ -1,0 +1,224 @@
+# Lithuanian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus parinktys"
+
+msgid "Enable Text Scaling"
+msgstr "Įjungti teksto dydžio keitimą"
+
+msgid "Allow users to scale UI text size."
+msgstr "Leisti naudotojams keisti teksto dydį."
+
+msgid "Enable Contrast Modes"
+msgstr "Įjungti kontrasto režimus"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Leisti naudotojams įjungti didelį kontrastą, invertuotas spalvas arba pilkumo skalę."
+
+msgid "Enable Link Highlighting"
+msgstr "Įjungti nuorodų paryškinimą"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Leisti naudotojams paryškinti spustelėjamas nuorodas."
+
+msgid "Enable Font Options"
+msgstr "Įjungti šrifto parinktis"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Leisti naudotojams pasirinkti lengviau skaitomą (Atkinson Hyperlegible) arba disleksijai pritaikytą (OpenDyslexic) šriftą."
+
+msgid "Enable Text Spacing"
+msgstr "Įjungti teksto tarpus"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Leisti naudotojams padidinti tarpus tarp eilučių, raidžių ir žodžių (WCAG 1.4.12 reikšmės)."
+
+msgid "Enable Stop Motion"
+msgstr "Įjungti judesio stabdymą"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Leisti naudotojams sustabdyti animacijas, perėjimus ir kitą judantį turinį."
+
+msgid "Enable Big Cursor"
+msgstr "Įjungti didelį žymeklį"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Leisti naudotojams padidinti pelės žymeklį (paslėpta jutikliniuose ekranuose)."
+
+msgid "Default Widget Position"
+msgstr "Numatytoji mygtuko vieta"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Pasirinkite kampą, kuriame iš pradžių rodomas prieinamumo mygtukas."
+
+msgid "Bottom Right"
+msgstr "Apačioje dešinėje"
+
+msgid "Bottom Left"
+msgstr "Apačioje kairėje"
+
+msgid "Accessibility Options"
+msgstr "Prieinamumo parinktys"
+
+msgid "Accessibility Settings Panel"
+msgstr "Prieinamumo nustatymų skydelis"
+
+msgid "Accessibility"
+msgstr "Prieinamumas"
+
+msgid "Move widget to left"
+msgstr "Perkelti mygtuką į kairę"
+
+msgid "Move widget to right"
+msgstr "Perkelti mygtuką į dešinę"
+
+msgid "Close Panel"
+msgstr "Uždaryti skydelį"
+
+msgid "Text Size"
+msgstr "Teksto dydis"
+
+msgid "Decrease text size"
+msgstr "Sumažinti tekstą"
+
+msgid "Increase text size"
+msgstr "Padidinti tekstą"
+
+msgid "Contrast"
+msgstr "Kontrastas"
+
+msgid "Links"
+msgstr "Nuorodos"
+
+msgid "Highlight all clickable links"
+msgstr "Paryškinti visas spustelėjamas nuorodas"
+
+msgid "Font"
+msgstr "Šriftas"
+
+msgid "Spacing"
+msgstr "Tarpai"
+
+msgid "Wider text spacing"
+msgstr "Platesni teksto tarpai"
+
+msgid "Stop Motion"
+msgstr "Stabdyti judesį"
+
+msgid "Stop animations and moving content"
+msgstr "Sustabdyti animacijas ir judantį turinį"
+
+msgid "Big Cursor"
+msgstr "Didelis žymeklis"
+
+msgid "Large mouse pointer"
+msgstr "Didelis pelės žymeklis"
+
+msgid "Reset"
+msgstr "Atkurti"
+
+msgid "Reset all tools to default"
+msgstr "Atkurti visus įrankius"
+
+msgid "Close"
+msgstr "Uždaryti"
+
+msgid "Close Accessibility Panel"
+msgstr "Uždaryti prieinamumo skydelį"
+
+msgid "On"
+msgstr "Įjungta"
+
+msgid "Off"
+msgstr "Išjungta"
+
+msgid "High"
+msgstr "Didelis"
+
+msgid "Invert"
+msgstr "Invertuotas"
+
+msgid "Gray"
+msgstr "Pilkas"
+
+msgid "Default"
+msgstr "Numatytasis"
+
+msgid "Readable"
+msgstr "Lengvai skaitomas"
+
+msgid "Dyslexic"
+msgstr "Disleksija"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Kontrastas: %1$s (spustelėkite, kad pakeistumėte)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Šriftas: %1$s (spustelėkite, kad pakeistumėte)"
+
+msgid "Accessibility menu opened"
+msgstr "Prieinamumo meniu atidarytas"
+
+msgid "Accessibility menu closed"
+msgstr "Prieinamumo meniu uždarytas"
+
+msgid "All accessibility settings reset to default"
+msgstr "Visi prieinamumo nustatymai atkurti"
+
+msgid "Widget moved to the left"
+msgstr "Mygtukas perkeltas į kairę"
+
+msgid "Widget moved to the right"
+msgstr "Mygtukas perkeltas į dešinę"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Teksto dydis padidintas iki %1$s procentų"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Teksto dydis sumažintas iki %1$s procentų"
+
+msgid "Contrast mode off"
+msgstr "Kontrasto režimas išjungtas"
+
+msgid "Contrast mode: %1$s"
+msgstr "Kontrasto režimas: %1$s"
+
+msgid "Default font restored"
+msgstr "Atkurtas numatytasis šriftas"
+
+msgid "%1$s font enabled"
+msgstr "Įjungtas šriftas: %1$s"
+
+msgid "Link highlighting enabled"
+msgstr "Nuorodų paryškinimas įjungtas"
+
+msgid "Link highlighting disabled"
+msgstr "Nuorodų paryškinimas išjungtas"
+
+msgid "Wider text spacing enabled"
+msgstr "Platesni teksto tarpai įjungti"
+
+msgid "Wider text spacing disabled"
+msgstr "Platesni teksto tarpai išjungti"
+
+msgid "Stop animations enabled"
+msgstr "Animacijos sustabdytos"
+
+msgid "Stop animations disabled"
+msgstr "Animacijos vėl paleistos"
+
+msgid "Large cursor enabled"
+msgstr "Didelis žymeklis įjungtas"
+
+msgid "Large cursor disabled"
+msgstr "Didelis žymeklis išjungtas"

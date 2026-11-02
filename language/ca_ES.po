@@ -1,0 +1,224 @@
+# Catalan translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: ca-ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Opcions d'Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Activa la mida del text"
+
+msgid "Allow users to scale UI text size."
+msgstr "Permet que els usuaris canviïn la mida del text."
+
+msgid "Enable Contrast Modes"
+msgstr "Activa els modes de contrast"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Permet que els usuaris activin el contrast alt, la inversió de colors o l'escala de grisos."
+
+msgid "Enable Link Highlighting"
+msgstr "Activa el ressaltat d'enllaços"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Permet que els usuaris ressaltin els enllaços on es pot fer clic."
+
+msgid "Enable Font Options"
+msgstr "Activa les opcions de lletra"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Permet que els usuaris canviïn a una lletra més llegible (Atkinson Hyperlegible) o adaptada a la dislèxia (OpenDyslexic)."
+
+msgid "Enable Text Spacing"
+msgstr "Activa l'espaiat del text"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Permet que els usuaris ampliïn l'interlineat i l'espaiat entre lletres i paraules (valors del criteri WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Activa l'aturada del moviment"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Permet que els usuaris aturin les animacions, les transicions i altres continguts en moviment."
+
+msgid "Enable Big Cursor"
+msgstr "Activa el cursor gran"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Permet que els usuaris facin més gran el punter del ratolí (amagat a les pantalles tàctils)."
+
+msgid "Default Widget Position"
+msgstr "Posició predeterminada del botó"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Trieu la cantonada on apareix inicialment el botó d'accessibilitat."
+
+msgid "Bottom Right"
+msgstr "A baix a la dreta"
+
+msgid "Bottom Left"
+msgstr "A baix a l'esquerra"
+
+msgid "Accessibility Options"
+msgstr "Opcions d'accessibilitat"
+
+msgid "Accessibility Settings Panel"
+msgstr "Tauler de configuració d'accessibilitat"
+
+msgid "Accessibility"
+msgstr "Accessibilitat"
+
+msgid "Move widget to left"
+msgstr "Mou el botó a l'esquerra"
+
+msgid "Move widget to right"
+msgstr "Mou el botó a la dreta"
+
+msgid "Close Panel"
+msgstr "Tanca el tauler"
+
+msgid "Text Size"
+msgstr "Mida del text"
+
+msgid "Decrease text size"
+msgstr "Redueix el text"
+
+msgid "Increase text size"
+msgstr "Augmenta el text"
+
+msgid "Contrast"
+msgstr "Contrast"
+
+msgid "Links"
+msgstr "Enllaços"
+
+msgid "Highlight all clickable links"
+msgstr "Ressalta tots els enllaços"
+
+msgid "Font"
+msgstr "Lletra"
+
+msgid "Spacing"
+msgstr "Espaiat"
+
+msgid "Wider text spacing"
+msgstr "Text més espaiat"
+
+msgid "Stop Motion"
+msgstr "Atura el moviment"
+
+msgid "Stop animations and moving content"
+msgstr "Atura les animacions i el contingut en moviment"
+
+msgid "Big Cursor"
+msgstr "Cursor gran"
+
+msgid "Large mouse pointer"
+msgstr "Punter del ratolí gran"
+
+msgid "Reset"
+msgstr "Restableix"
+
+msgid "Reset all tools to default"
+msgstr "Restableix totes les eines"
+
+msgid "Close"
+msgstr "Tanca"
+
+msgid "Close Accessibility Panel"
+msgstr "Tanca el tauler d'accessibilitat"
+
+msgid "On"
+msgstr "Activat"
+
+msgid "Off"
+msgstr "Desactivat"
+
+msgid "High"
+msgstr "Alt"
+
+msgid "Invert"
+msgstr "Invertit"
+
+msgid "Gray"
+msgstr "Gris"
+
+msgid "Default"
+msgstr "Predeterminada"
+
+msgid "Readable"
+msgstr "Llegible"
+
+msgid "Dyslexic"
+msgstr "Dislèxia"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Contrast: %1$s (feu clic per canviar)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Lletra: %1$s (feu clic per canviar)"
+
+msgid "Accessibility menu opened"
+msgstr "Menú d'accessibilitat obert"
+
+msgid "Accessibility menu closed"
+msgstr "Menú d'accessibilitat tancat"
+
+msgid "All accessibility settings reset to default"
+msgstr "S'han restablert tots els ajustos d'accessibilitat"
+
+msgid "Widget moved to the left"
+msgstr "Botó mogut a l'esquerra"
+
+msgid "Widget moved to the right"
+msgstr "Botó mogut a la dreta"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Mida del text augmentada al %1$s per cent"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Mida del text reduïda al %1$s per cent"
+
+msgid "Contrast mode off"
+msgstr "Mode de contrast desactivat"
+
+msgid "Contrast mode: %1$s"
+msgstr "Mode de contrast: %1$s"
+
+msgid "Default font restored"
+msgstr "Lletra predeterminada restablerta"
+
+msgid "%1$s font enabled"
+msgstr "Lletra %1$s activada"
+
+msgid "Link highlighting enabled"
+msgstr "Ressaltat d'enllaços activat"
+
+msgid "Link highlighting disabled"
+msgstr "Ressaltat d'enllaços desactivat"
+
+msgid "Wider text spacing enabled"
+msgstr "Espaiat ampli del text activat"
+
+msgid "Wider text spacing disabled"
+msgstr "Espaiat ampli del text desactivat"
+
+msgid "Stop animations enabled"
+msgstr "Animacions aturades"
+
+msgid "Stop animations disabled"
+msgstr "Animacions represes"
+
+msgid "Large cursor enabled"
+msgstr "Cursor gran activat"
+
+msgid "Large cursor disabled"
+msgstr "Cursor gran desactivat"

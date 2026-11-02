@@ -1,0 +1,224 @@
+# Mongolian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus-ийн тохиргоо"
+
+msgid "Enable Text Scaling"
+msgstr "Текстийн хэмжээг идэвхжүүлэх"
+
+msgid "Allow users to scale UI text size."
+msgstr "Хэрэглэгчдэд текстийн хэмжээг өөрчлөхийг зөвшөөрөх."
+
+msgid "Enable Contrast Modes"
+msgstr "Контрастын горимуудыг идэвхжүүлэх"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Хэрэглэгчдэд өндөр контраст, урвуу өнгө эсвэл саарал өнгийг асаахыг зөвшөөрөх."
+
+msgid "Enable Link Highlighting"
+msgstr "Холбоос тодруулахыг идэвхжүүлэх"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Хэрэглэгчдэд дарж болох холбоосуудыг тодруулахыг зөвшөөрөх."
+
+msgid "Enable Font Options"
+msgstr "Фонтын сонголтыг идэвхжүүлэх"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Хэрэглэгчдэд уншихад хялбар (Atkinson Hyperlegible) эсвэл дислекситэй хүнд тохирсон (OpenDyslexic) фонт руу шилжихийг зөвшөөрөх."
+
+msgid "Enable Text Spacing"
+msgstr "Текстийн зайг идэвхжүүлэх"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Хэрэглэгчдэд мөр, үсэг, үгийн хоорондын зайг нэмэгдүүлэхийг зөвшөөрөх (WCAG 1.4.12-ийн утгууд)."
+
+msgid "Enable Stop Motion"
+msgstr "Хөдөлгөөн зогсоохыг идэвхжүүлэх"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Хэрэглэгчдэд хөдөлгөөнт дүрс, шилжилт болон бусад хөдөлгөөнт агуулгыг зогсоохыг зөвшөөрөх."
+
+msgid "Enable Big Cursor"
+msgstr "Том курсорыг идэвхжүүлэх"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Хэрэглэгчдэд хулганы заагчийг томруулахыг зөвшөөрөх (мэдрэгчтэй дэлгэц дээр нуугдана)."
+
+msgid "Default Widget Position"
+msgstr "Товчлуурын анхдагч байрлал"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Хүртээмжийн товчлуур эхлээд аль буланд харагдахыг сонгоно уу."
+
+msgid "Bottom Right"
+msgstr "Баруун доод"
+
+msgid "Bottom Left"
+msgstr "Зүүн доод"
+
+msgid "Accessibility Options"
+msgstr "Хүртээмжийн тохиргоо"
+
+msgid "Accessibility Settings Panel"
+msgstr "Хүртээмжийн тохиргооны самбар"
+
+msgid "Accessibility"
+msgstr "Хүртээмж"
+
+msgid "Move widget to left"
+msgstr "Товчлуурыг зүүн тийш зөөх"
+
+msgid "Move widget to right"
+msgstr "Товчлуурыг баруун тийш зөөх"
+
+msgid "Close Panel"
+msgstr "Самбарыг хаах"
+
+msgid "Text Size"
+msgstr "Текстийн хэмжээ"
+
+msgid "Decrease text size"
+msgstr "Текстийг жижигрүүлэх"
+
+msgid "Increase text size"
+msgstr "Текстийг томруулах"
+
+msgid "Contrast"
+msgstr "Контраст"
+
+msgid "Links"
+msgstr "Холбоосууд"
+
+msgid "Highlight all clickable links"
+msgstr "Бүх холбоосыг тодруулах"
+
+msgid "Font"
+msgstr "Фонт"
+
+msgid "Spacing"
+msgstr "Зай"
+
+msgid "Wider text spacing"
+msgstr "Текстийн илүү өргөн зай"
+
+msgid "Stop Motion"
+msgstr "Хөдөлгөөнийг зогсоох"
+
+msgid "Stop animations and moving content"
+msgstr "Хөдөлгөөнт дүрс, хөдөлгөөнт агуулгыг зогсоох"
+
+msgid "Big Cursor"
+msgstr "Том курсор"
+
+msgid "Large mouse pointer"
+msgstr "Хулганы том заагч"
+
+msgid "Reset"
+msgstr "Шинэчлэх"
+
+msgid "Reset all tools to default"
+msgstr "Бүх хэрэгслийг анхны байдалд нь оруулах"
+
+msgid "Close"
+msgstr "Хаах"
+
+msgid "Close Accessibility Panel"
+msgstr "Хүртээмжийн самбарыг хаах"
+
+msgid "On"
+msgstr "Асаалттай"
+
+msgid "Off"
+msgstr "Унтраалттай"
+
+msgid "High"
+msgstr "Өндөр"
+
+msgid "Invert"
+msgstr "Урвуу"
+
+msgid "Gray"
+msgstr "Саарал"
+
+msgid "Default"
+msgstr "Анхдагч"
+
+msgid "Readable"
+msgstr "Уншихад хялбар"
+
+msgid "Dyslexic"
+msgstr "Дислекси"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Контраст: %1$s (өөрчлөхийн тулд дарна уу)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Фонт: %1$s (өөрчлөхийн тулд дарна уу)"
+
+msgid "Accessibility menu opened"
+msgstr "Хүртээмжийн цэс нээгдлээ"
+
+msgid "Accessibility menu closed"
+msgstr "Хүртээмжийн цэс хаагдлаа"
+
+msgid "All accessibility settings reset to default"
+msgstr "Хүртээмжийн бүх тохиргоог анхны байдалд нь орууллаа"
+
+msgid "Widget moved to the left"
+msgstr "Товчлуурыг зүүн тийш зөөлөө"
+
+msgid "Widget moved to the right"
+msgstr "Товчлуурыг баруун тийш зөөлөө"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Текстийн хэмжээг %1$s хувь болгон томрууллаа"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Текстийн хэмжээг %1$s хувь болгон жижигрүүллээ"
+
+msgid "Contrast mode off"
+msgstr "Контрастын горим унтарлаа"
+
+msgid "Contrast mode: %1$s"
+msgstr "Контрастын горим: %1$s"
+
+msgid "Default font restored"
+msgstr "Анхдагч фонтыг сэргээлээ"
+
+msgid "%1$s font enabled"
+msgstr "%1$s фонт идэвхжлээ"
+
+msgid "Link highlighting enabled"
+msgstr "Холбоос тодруулах асаалттай"
+
+msgid "Link highlighting disabled"
+msgstr "Холбоос тодруулах унтраалттай"
+
+msgid "Wider text spacing enabled"
+msgstr "Текстийн өргөн зай асаалттай"
+
+msgid "Wider text spacing disabled"
+msgstr "Текстийн өргөн зай унтраалттай"
+
+msgid "Stop animations enabled"
+msgstr "Хөдөлгөөнт дүрсийг зогсоолоо"
+
+msgid "Stop animations disabled"
+msgstr "Хөдөлгөөнт дүрсийг үргэлжлүүллээ"
+
+msgid "Large cursor enabled"
+msgstr "Том курсор асаалттай"
+
+msgid "Large cursor disabled"
+msgstr "Том курсор унтраалттай"

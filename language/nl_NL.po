@@ -1,0 +1,224 @@
+# Dutch translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: nl-NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Opties voor Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Tekstgrootte inschakelen"
+
+msgid "Allow users to scale UI text size."
+msgstr "Gebruikers toestaan de tekstgrootte aan te passen."
+
+msgid "Enable Contrast Modes"
+msgstr "Contrastmodi inschakelen"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Gebruikers toestaan hoog contrast, omgekeerde kleuren of grijstinten in te schakelen."
+
+msgid "Enable Link Highlighting"
+msgstr "Linkmarkering inschakelen"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Gebruikers toestaan klikbare links te markeren."
+
+msgid "Enable Font Options"
+msgstr "Lettertype-opties inschakelen"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Gebruikers toestaan over te schakelen naar een goed leesbaar (Atkinson Hyperlegible) of dyslexievriendelijk (OpenDyslexic) lettertype."
+
+msgid "Enable Text Spacing"
+msgstr "Tekstafstand inschakelen"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Gebruikers toestaan de regel-, letter- en woordafstand te vergroten (waarden volgens WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Beweging stoppen inschakelen"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Gebruikers toestaan animaties, overgangen en andere bewegende inhoud te stoppen."
+
+msgid "Enable Big Cursor"
+msgstr "Grote cursor inschakelen"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Gebruikers toestaan de muisaanwijzer te vergroten (verborgen op touchscreens)."
+
+msgid "Default Widget Position"
+msgstr "Standaardpositie van de knop"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Kies de hoek waarin de toegankelijkheidsknop eerst verschijnt."
+
+msgid "Bottom Right"
+msgstr "Rechtsonder"
+
+msgid "Bottom Left"
+msgstr "Linksonder"
+
+msgid "Accessibility Options"
+msgstr "Toegankelijkheidsopties"
+
+msgid "Accessibility Settings Panel"
+msgstr "Paneel met toegankelijkheidsinstellingen"
+
+msgid "Accessibility"
+msgstr "Toegankelijkheid"
+
+msgid "Move widget to left"
+msgstr "Knop naar links verplaatsen"
+
+msgid "Move widget to right"
+msgstr "Knop naar rechts verplaatsen"
+
+msgid "Close Panel"
+msgstr "Paneel sluiten"
+
+msgid "Text Size"
+msgstr "Tekstgrootte"
+
+msgid "Decrease text size"
+msgstr "Tekst verkleinen"
+
+msgid "Increase text size"
+msgstr "Tekst vergroten"
+
+msgid "Contrast"
+msgstr "Contrast"
+
+msgid "Links"
+msgstr "Links"
+
+msgid "Highlight all clickable links"
+msgstr "Alle klikbare links markeren"
+
+msgid "Font"
+msgstr "Lettertype"
+
+msgid "Spacing"
+msgstr "Afstand"
+
+msgid "Wider text spacing"
+msgstr "Ruimere tekstafstand"
+
+msgid "Stop Motion"
+msgstr "Beweging stoppen"
+
+msgid "Stop animations and moving content"
+msgstr "Animaties en bewegende inhoud stoppen"
+
+msgid "Big Cursor"
+msgstr "Grote cursor"
+
+msgid "Large mouse pointer"
+msgstr "Grote muisaanwijzer"
+
+msgid "Reset"
+msgstr "Herstellen"
+
+msgid "Reset all tools to default"
+msgstr "Alle hulpmiddelen terugzetten naar standaard"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Close Accessibility Panel"
+msgstr "Toegankelijkheidspaneel sluiten"
+
+msgid "On"
+msgstr "Aan"
+
+msgid "Off"
+msgstr "Uit"
+
+msgid "High"
+msgstr "Hoog"
+
+msgid "Invert"
+msgstr "Omgekeerd"
+
+msgid "Gray"
+msgstr "Grijs"
+
+msgid "Default"
+msgstr "Standaard"
+
+msgid "Readable"
+msgstr "Leesbaar"
+
+msgid "Dyslexic"
+msgstr "Dyslexie"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Contrast: %1$s (klik om te wijzigen)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Lettertype: %1$s (klik om te wijzigen)"
+
+msgid "Accessibility menu opened"
+msgstr "Toegankelijkheidsmenu geopend"
+
+msgid "Accessibility menu closed"
+msgstr "Toegankelijkheidsmenu gesloten"
+
+msgid "All accessibility settings reset to default"
+msgstr "Alle toegankelijkheidsinstellingen zijn hersteld"
+
+msgid "Widget moved to the left"
+msgstr "Knop naar links verplaatst"
+
+msgid "Widget moved to the right"
+msgstr "Knop naar rechts verplaatst"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Tekstgrootte vergroot naar %1$s procent"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Tekstgrootte verkleind naar %1$s procent"
+
+msgid "Contrast mode off"
+msgstr "Contrastmodus uit"
+
+msgid "Contrast mode: %1$s"
+msgstr "Contrastmodus: %1$s"
+
+msgid "Default font restored"
+msgstr "Standaardlettertype hersteld"
+
+msgid "%1$s font enabled"
+msgstr "Lettertype %1$s ingeschakeld"
+
+msgid "Link highlighting enabled"
+msgstr "Linkmarkering ingeschakeld"
+
+msgid "Link highlighting disabled"
+msgstr "Linkmarkering uitgeschakeld"
+
+msgid "Wider text spacing enabled"
+msgstr "Ruimere tekstafstand ingeschakeld"
+
+msgid "Wider text spacing disabled"
+msgstr "Ruimere tekstafstand uitgeschakeld"
+
+msgid "Stop animations enabled"
+msgstr "Animaties gestopt"
+
+msgid "Stop animations disabled"
+msgstr "Animaties hervat"
+
+msgid "Large cursor enabled"
+msgstr "Grote cursor ingeschakeld"
+
+msgid "Large cursor disabled"
+msgstr "Grote cursor uitgeschakeld"

@@ -1,0 +1,224 @@
+# Finnish translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: fi-FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus -asetukset"
+
+msgid "Enable Text Scaling"
+msgstr "Ota tekstin koko käyttöön"
+
+msgid "Allow users to scale UI text size."
+msgstr "Anna käyttäjien muuttaa tekstin kokoa."
+
+msgid "Enable Contrast Modes"
+msgstr "Ota kontrastitilat käyttöön"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Anna käyttäjien ottaa käyttöön suuri kontrasti, käänteiset värit tai harmaasävyt."
+
+msgid "Enable Link Highlighting"
+msgstr "Ota linkkien korostus käyttöön"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Anna käyttäjien korostaa napsautettavat linkit."
+
+msgid "Enable Font Options"
+msgstr "Ota fonttivalinnat käyttöön"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Anna käyttäjien vaihtaa helppolukuiseen (Atkinson Hyperlegible) tai lukihäiriöön sopivaan (OpenDyslexic) fonttiin."
+
+msgid "Enable Text Spacing"
+msgstr "Ota tekstin välistys käyttöön"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Anna käyttäjien suurentaa rivi-, kirjain- ja sanaväliä (WCAG 1.4.12 -arvot)."
+
+msgid "Enable Stop Motion"
+msgstr "Ota liikkeen pysäytys käyttöön"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Anna käyttäjien pysäyttää animaatiot, siirtymät ja muu liikkuva sisältö."
+
+msgid "Enable Big Cursor"
+msgstr "Ota suuri osoitin käyttöön"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Anna käyttäjien suurentaa hiiren osoitinta (piilotettu kosketusnäytöillä)."
+
+msgid "Default Widget Position"
+msgstr "Painikkeen oletussijainti"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Valitse kulma, jossa saavutettavuuspainike näkyy aluksi."
+
+msgid "Bottom Right"
+msgstr "Oikea alakulma"
+
+msgid "Bottom Left"
+msgstr "Vasen alakulma"
+
+msgid "Accessibility Options"
+msgstr "Saavutettavuusasetukset"
+
+msgid "Accessibility Settings Panel"
+msgstr "Saavutettavuusasetusten paneeli"
+
+msgid "Accessibility"
+msgstr "Saavutettavuus"
+
+msgid "Move widget to left"
+msgstr "Siirrä painike vasemmalle"
+
+msgid "Move widget to right"
+msgstr "Siirrä painike oikealle"
+
+msgid "Close Panel"
+msgstr "Sulje paneeli"
+
+msgid "Text Size"
+msgstr "Tekstin koko"
+
+msgid "Decrease text size"
+msgstr "Pienennä tekstiä"
+
+msgid "Increase text size"
+msgstr "Suurenna tekstiä"
+
+msgid "Contrast"
+msgstr "Kontrasti"
+
+msgid "Links"
+msgstr "Linkit"
+
+msgid "Highlight all clickable links"
+msgstr "Korosta kaikki napsautettavat linkit"
+
+msgid "Font"
+msgstr "Fontti"
+
+msgid "Spacing"
+msgstr "Välistys"
+
+msgid "Wider text spacing"
+msgstr "Väljempi tekstin välistys"
+
+msgid "Stop Motion"
+msgstr "Pysäytä liike"
+
+msgid "Stop animations and moving content"
+msgstr "Pysäytä animaatiot ja liikkuva sisältö"
+
+msgid "Big Cursor"
+msgstr "Suuri osoitin"
+
+msgid "Large mouse pointer"
+msgstr "Suuri hiiren osoitin"
+
+msgid "Reset"
+msgstr "Palauta"
+
+msgid "Reset all tools to default"
+msgstr "Palauta kaikki työkalut oletuksiin"
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Close Accessibility Panel"
+msgstr "Sulje saavutettavuuspaneeli"
+
+msgid "On"
+msgstr "Päällä"
+
+msgid "Off"
+msgstr "Pois"
+
+msgid "High"
+msgstr "Suuri"
+
+msgid "Invert"
+msgstr "Käänteinen"
+
+msgid "Gray"
+msgstr "Harmaa"
+
+msgid "Default"
+msgstr "Oletus"
+
+msgid "Readable"
+msgstr "Helppolukuinen"
+
+msgid "Dyslexic"
+msgstr "Lukihäiriö"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Kontrasti: %1$s (vaihda napsauttamalla)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Fontti: %1$s (vaihda napsauttamalla)"
+
+msgid "Accessibility menu opened"
+msgstr "Saavutettavuusvalikko avattu"
+
+msgid "Accessibility menu closed"
+msgstr "Saavutettavuusvalikko suljettu"
+
+msgid "All accessibility settings reset to default"
+msgstr "Kaikki saavutettavuusasetukset palautettu oletuksiin"
+
+msgid "Widget moved to the left"
+msgstr "Painike siirretty vasemmalle"
+
+msgid "Widget moved to the right"
+msgstr "Painike siirretty oikealle"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Tekstin koko suurennettu %1$s prosenttiin"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Tekstin koko pienennetty %1$s prosenttiin"
+
+msgid "Contrast mode off"
+msgstr "Kontrastitila pois"
+
+msgid "Contrast mode: %1$s"
+msgstr "Kontrastitila: %1$s"
+
+msgid "Default font restored"
+msgstr "Oletusfontti palautettu"
+
+msgid "%1$s font enabled"
+msgstr "Fontti %1$s käytössä"
+
+msgid "Link highlighting enabled"
+msgstr "Linkkien korostus käytössä"
+
+msgid "Link highlighting disabled"
+msgstr "Linkkien korostus pois käytöstä"
+
+msgid "Wider text spacing enabled"
+msgstr "Väljempi tekstin välistys käytössä"
+
+msgid "Wider text spacing disabled"
+msgstr "Väljempi tekstin välistys pois käytöstä"
+
+msgid "Stop animations enabled"
+msgstr "Animaatiot pysäytetty"
+
+msgid "Stop animations disabled"
+msgstr "Animaatiot jatkuvat"
+
+msgid "Large cursor enabled"
+msgstr "Suuri osoitin käytössä"
+
+msgid "Large cursor disabled"
+msgstr "Suuri osoitin pois käytöstä"

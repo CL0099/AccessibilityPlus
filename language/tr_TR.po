@@ -1,0 +1,224 @@
+# Turkish translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: tr-TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus seçenekleri"
+
+msgid "Enable Text Scaling"
+msgstr "Metin boyutunu etkinleştir"
+
+msgid "Allow users to scale UI text size."
+msgstr "Kullanıcıların metin boyutunu değiştirmesine izin ver."
+
+msgid "Enable Contrast Modes"
+msgstr "Kontrast modlarını etkinleştir"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Kullanıcıların yüksek kontrastı, ters renkleri veya gri tonlamayı açmasına izin ver."
+
+msgid "Enable Link Highlighting"
+msgstr "Bağlantı vurgulamayı etkinleştir"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Kullanıcıların tıklanabilir bağlantıları vurgulamasına izin ver."
+
+msgid "Enable Font Options"
+msgstr "Yazı tipi seçeneklerini etkinleştir"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Kullanıcıların daha okunaklı (Atkinson Hyperlegible) veya disleksiye uygun (OpenDyslexic) bir yazı tipine geçmesine izin ver."
+
+msgid "Enable Text Spacing"
+msgstr "Metin aralığını etkinleştir"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Kullanıcıların satır, harf ve sözcük aralığını artırmasına izin ver (WCAG 1.4.12 değerleri)."
+
+msgid "Enable Stop Motion"
+msgstr "Hareketi durdurmayı etkinleştir"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Kullanıcıların animasyonları, geçişleri ve diğer hareketli içeriği durdurmasına izin ver."
+
+msgid "Enable Big Cursor"
+msgstr "Büyük imleci etkinleştir"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Kullanıcıların fare işaretçisini büyütmesine izin ver (dokunmatik ekranlarda gizlidir)."
+
+msgid "Default Widget Position"
+msgstr "Düğmenin varsayılan konumu"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Erişilebilirlik düğmesinin ilk olarak görüneceği köşeyi seçin."
+
+msgid "Bottom Right"
+msgstr "Sağ alt"
+
+msgid "Bottom Left"
+msgstr "Sol alt"
+
+msgid "Accessibility Options"
+msgstr "Erişilebilirlik seçenekleri"
+
+msgid "Accessibility Settings Panel"
+msgstr "Erişilebilirlik ayarları paneli"
+
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+msgid "Move widget to left"
+msgstr "Düğmeyi sola taşı"
+
+msgid "Move widget to right"
+msgstr "Düğmeyi sağa taşı"
+
+msgid "Close Panel"
+msgstr "Paneli kapat"
+
+msgid "Text Size"
+msgstr "Metin boyutu"
+
+msgid "Decrease text size"
+msgstr "Metni küçült"
+
+msgid "Increase text size"
+msgstr "Metni büyüt"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Links"
+msgstr "Bağlantılar"
+
+msgid "Highlight all clickable links"
+msgstr "Tüm tıklanabilir bağlantıları vurgula"
+
+msgid "Font"
+msgstr "Yazı tipi"
+
+msgid "Spacing"
+msgstr "Aralık"
+
+msgid "Wider text spacing"
+msgstr "Daha geniş metin aralığı"
+
+msgid "Stop Motion"
+msgstr "Hareketi durdur"
+
+msgid "Stop animations and moving content"
+msgstr "Animasyonları ve hareketli içeriği durdur"
+
+msgid "Big Cursor"
+msgstr "Büyük imleç"
+
+msgid "Large mouse pointer"
+msgstr "Büyük fare işaretçisi"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Reset all tools to default"
+msgstr "Tüm araçları varsayılana sıfırla"
+
+msgid "Close"
+msgstr "Kapat"
+
+msgid "Close Accessibility Panel"
+msgstr "Erişilebilirlik panelini kapat"
+
+msgid "On"
+msgstr "Açık"
+
+msgid "Off"
+msgstr "Kapalı"
+
+msgid "High"
+msgstr "Yüksek"
+
+msgid "Invert"
+msgstr "Ters"
+
+msgid "Gray"
+msgstr "Gri"
+
+msgid "Default"
+msgstr "Varsayılan"
+
+msgid "Readable"
+msgstr "Okunaklı"
+
+msgid "Dyslexic"
+msgstr "Disleksi"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Kontrast: %1$s (değiştirmek için tıklayın)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Yazı tipi: %1$s (değiştirmek için tıklayın)"
+
+msgid "Accessibility menu opened"
+msgstr "Erişilebilirlik menüsü açıldı"
+
+msgid "Accessibility menu closed"
+msgstr "Erişilebilirlik menüsü kapatıldı"
+
+msgid "All accessibility settings reset to default"
+msgstr "Tüm erişilebilirlik ayarları sıfırlandı"
+
+msgid "Widget moved to the left"
+msgstr "Düğme sola taşındı"
+
+msgid "Widget moved to the right"
+msgstr "Düğme sağa taşındı"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Metin boyutu yüzde %1$s olarak artırıldı"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Metin boyutu yüzde %1$s olarak azaltıldı"
+
+msgid "Contrast mode off"
+msgstr "Kontrast modu kapalı"
+
+msgid "Contrast mode: %1$s"
+msgstr "Kontrast modu: %1$s"
+
+msgid "Default font restored"
+msgstr "Varsayılan yazı tipi geri yüklendi"
+
+msgid "%1$s font enabled"
+msgstr "%1$s yazı tipi etkinleştirildi"
+
+msgid "Link highlighting enabled"
+msgstr "Bağlantı vurgulama açıldı"
+
+msgid "Link highlighting disabled"
+msgstr "Bağlantı vurgulama kapatıldı"
+
+msgid "Wider text spacing enabled"
+msgstr "Geniş metin aralığı açıldı"
+
+msgid "Wider text spacing disabled"
+msgstr "Geniş metin aralığı kapatıldı"
+
+msgid "Stop animations enabled"
+msgstr "Animasyonlar durduruldu"
+
+msgid "Stop animations disabled"
+msgstr "Animasyonlar yeniden başlatıldı"
+
+msgid "Large cursor enabled"
+msgstr "Büyük imleç açıldı"
+
+msgid "Large cursor disabled"
+msgstr "Büyük imleç kapatıldı"

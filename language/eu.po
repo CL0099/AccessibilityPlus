@@ -1,0 +1,224 @@
+# Basque translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus-en aukerak"
+
+msgid "Enable Text Scaling"
+msgstr "Gaitu testuaren tamaina"
+
+msgid "Allow users to scale UI text size."
+msgstr "Utzi erabiltzaileei testuaren tamaina aldatzen."
+
+msgid "Enable Contrast Modes"
+msgstr "Gaitu kontraste moduak"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Utzi erabiltzaileei kontraste handia, kolore alderantzikatuak edo gris-eskala aktibatzen."
+
+msgid "Enable Link Highlighting"
+msgstr "Gaitu esteken nabarmentzea"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Utzi erabiltzaileei klik egin daitezkeen estekak nabarmentzen."
+
+msgid "Enable Font Options"
+msgstr "Gaitu letra-tipoaren aukerak"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Utzi erabiltzaileei letra-tipo irakurgarriago batera (Atkinson Hyperlegible) edo dislexiarako egokitura (OpenDyslexic) aldatzen."
+
+msgid "Enable Text Spacing"
+msgstr "Gaitu testuaren tartea"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Utzi erabiltzaileei lerroen, hizkien eta hitzen arteko tartea handitzen (WCAG 1.4.12 balioak)."
+
+msgid "Enable Stop Motion"
+msgstr "Gaitu mugimendua geldiaraztea"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Utzi erabiltzaileei animazioak, trantsizioak eta mugitzen den beste edukia geldiarazten."
+
+msgid "Enable Big Cursor"
+msgstr "Gaitu kurtsore handia"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Utzi erabiltzaileei saguaren erakuslea handitzen (ezkutatuta ukipen-pantailetan)."
+
+msgid "Default Widget Position"
+msgstr "Botoiaren posizio lehenetsia"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Aukeratu irisgarritasun-botoia hasieran zein izkinatan agertzen den."
+
+msgid "Bottom Right"
+msgstr "Behean eskuinean"
+
+msgid "Bottom Left"
+msgstr "Behean ezkerrean"
+
+msgid "Accessibility Options"
+msgstr "Irisgarritasun-aukerak"
+
+msgid "Accessibility Settings Panel"
+msgstr "Irisgarritasun-ezarpenen panela"
+
+msgid "Accessibility"
+msgstr "Irisgarritasuna"
+
+msgid "Move widget to left"
+msgstr "Eraman botoia ezkerrera"
+
+msgid "Move widget to right"
+msgstr "Eraman botoia eskuinera"
+
+msgid "Close Panel"
+msgstr "Itxi panela"
+
+msgid "Text Size"
+msgstr "Testuaren tamaina"
+
+msgid "Decrease text size"
+msgstr "Txikitu testua"
+
+msgid "Increase text size"
+msgstr "Handitu testua"
+
+msgid "Contrast"
+msgstr "Kontrastea"
+
+msgid "Links"
+msgstr "Estekak"
+
+msgid "Highlight all clickable links"
+msgstr "Nabarmendu esteka guztiak"
+
+msgid "Font"
+msgstr "Letra-tipoa"
+
+msgid "Spacing"
+msgstr "Tartea"
+
+msgid "Wider text spacing"
+msgstr "Testu-tarte zabalagoa"
+
+msgid "Stop Motion"
+msgstr "Gelditu mugimendua"
+
+msgid "Stop animations and moving content"
+msgstr "Gelditu animazioak eta mugitzen den edukia"
+
+msgid "Big Cursor"
+msgstr "Kurtsore handia"
+
+msgid "Large mouse pointer"
+msgstr "Saguaren erakusle handia"
+
+msgid "Reset"
+msgstr "Berrezarri"
+
+msgid "Reset all tools to default"
+msgstr "Berrezarri tresna guztiak"
+
+msgid "Close"
+msgstr "Itxi"
+
+msgid "Close Accessibility Panel"
+msgstr "Itxi irisgarritasun-panela"
+
+msgid "On"
+msgstr "Aktibatuta"
+
+msgid "Off"
+msgstr "Desaktibatuta"
+
+msgid "High"
+msgstr "Handia"
+
+msgid "Invert"
+msgstr "Alderantzikatua"
+
+msgid "Gray"
+msgstr "Grisa"
+
+msgid "Default"
+msgstr "Lehenetsia"
+
+msgid "Readable"
+msgstr "Irakurgarria"
+
+msgid "Dyslexic"
+msgstr "Dislexia"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Kontrastea: %1$s (egin klik aldatzeko)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Letra-tipoa: %1$s (egin klik aldatzeko)"
+
+msgid "Accessibility menu opened"
+msgstr "Irisgarritasun-menua irekita"
+
+msgid "Accessibility menu closed"
+msgstr "Irisgarritasun-menua itxita"
+
+msgid "All accessibility settings reset to default"
+msgstr "Irisgarritasun-ezarpen guztiak berrezarri dira"
+
+msgid "Widget moved to the left"
+msgstr "Botoia ezkerrera eraman da"
+
+msgid "Widget moved to the right"
+msgstr "Botoia eskuinera eraman da"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Testuaren tamaina ehuneko %1$s-ra handitu da"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Testuaren tamaina ehuneko %1$s-ra txikitu da"
+
+msgid "Contrast mode off"
+msgstr "Kontraste modua desaktibatuta"
+
+msgid "Contrast mode: %1$s"
+msgstr "Kontraste modua: %1$s"
+
+msgid "Default font restored"
+msgstr "Letra-tipo lehenetsia berrezarri da"
+
+msgid "%1$s font enabled"
+msgstr "%1$s letra-tipoa aktibatuta"
+
+msgid "Link highlighting enabled"
+msgstr "Esteken nabarmentzea aktibatuta"
+
+msgid "Link highlighting disabled"
+msgstr "Esteken nabarmentzea desaktibatuta"
+
+msgid "Wider text spacing enabled"
+msgstr "Testu-tarte zabala aktibatuta"
+
+msgid "Wider text spacing disabled"
+msgstr "Testu-tarte zabala desaktibatuta"
+
+msgid "Stop animations enabled"
+msgstr "Animazioak geldituta"
+
+msgid "Stop animations disabled"
+msgstr "Animazioak berriro abian"
+
+msgid "Large cursor enabled"
+msgstr "Kurtsore handia aktibatuta"
+
+msgid "Large cursor disabled"
+msgstr "Kurtsore handia desaktibatuta"

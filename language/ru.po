@@ -1,0 +1,224 @@
+# Russian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Параметры Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Включить изменение размера текста"
+
+msgid "Allow users to scale UI text size."
+msgstr "Разрешить пользователям изменять размер текста."
+
+msgid "Enable Contrast Modes"
+msgstr "Включить режимы контраста"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Разрешить пользователям включать высокий контраст, инверсию цветов или оттенки серого."
+
+msgid "Enable Link Highlighting"
+msgstr "Включить выделение ссылок"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Разрешить пользователям выделять кликабельные ссылки."
+
+msgid "Enable Font Options"
+msgstr "Включить выбор шрифта"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Разрешить пользователям переключаться на более удобочитаемый шрифт (Atkinson Hyperlegible) или шрифт для людей с дислексией (OpenDyslexic)."
+
+msgid "Enable Text Spacing"
+msgstr "Включить интервалы текста"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Разрешить пользователям увеличивать межстрочный, межбуквенный и межсловный интервалы (значения по WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Включить остановку движения"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Разрешить пользователям останавливать анимации, переходы и другое движущееся содержимое."
+
+msgid "Enable Big Cursor"
+msgstr "Включить крупный курсор"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Разрешить пользователям увеличивать указатель мыши (скрыто на сенсорных экранах)."
+
+msgid "Default Widget Position"
+msgstr "Положение кнопки по умолчанию"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Выберите угол, в котором кнопка специальных возможностей появляется изначально."
+
+msgid "Bottom Right"
+msgstr "Справа внизу"
+
+msgid "Bottom Left"
+msgstr "Слева внизу"
+
+msgid "Accessibility Options"
+msgstr "Специальные возможности"
+
+msgid "Accessibility Settings Panel"
+msgstr "Панель настроек специальных возможностей"
+
+msgid "Accessibility"
+msgstr "Специальные возможности"
+
+msgid "Move widget to left"
+msgstr "Переместить кнопку влево"
+
+msgid "Move widget to right"
+msgstr "Переместить кнопку вправо"
+
+msgid "Close Panel"
+msgstr "Закрыть панель"
+
+msgid "Text Size"
+msgstr "Размер текста"
+
+msgid "Decrease text size"
+msgstr "Уменьшить текст"
+
+msgid "Increase text size"
+msgstr "Увеличить текст"
+
+msgid "Contrast"
+msgstr "Контраст"
+
+msgid "Links"
+msgstr "Ссылки"
+
+msgid "Highlight all clickable links"
+msgstr "Выделить все ссылки"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Spacing"
+msgstr "Интервалы"
+
+msgid "Wider text spacing"
+msgstr "Увеличенные интервалы текста"
+
+msgid "Stop Motion"
+msgstr "Остановить движение"
+
+msgid "Stop animations and moving content"
+msgstr "Остановить анимации и движущееся содержимое"
+
+msgid "Big Cursor"
+msgstr "Крупный курсор"
+
+msgid "Large mouse pointer"
+msgstr "Крупный указатель мыши"
+
+msgid "Reset"
+msgstr "Сбросить"
+
+msgid "Reset all tools to default"
+msgstr "Вернуть все инструменты к значениям по умолчанию"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Close Accessibility Panel"
+msgstr "Закрыть панель специальных возможностей"
+
+msgid "On"
+msgstr "Вкл."
+
+msgid "Off"
+msgstr "Выкл."
+
+msgid "High"
+msgstr "Высокий"
+
+msgid "Invert"
+msgstr "Инверсия"
+
+msgid "Gray"
+msgstr "Серый"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Readable"
+msgstr "Удобочитаемый"
+
+msgid "Dyslexic"
+msgstr "Дислексия"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Контраст: %1$s (нажмите, чтобы изменить)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Шрифт: %1$s (нажмите, чтобы изменить)"
+
+msgid "Accessibility menu opened"
+msgstr "Меню специальных возможностей открыто"
+
+msgid "Accessibility menu closed"
+msgstr "Меню специальных возможностей закрыто"
+
+msgid "All accessibility settings reset to default"
+msgstr "Все настройки специальных возможностей сброшены"
+
+msgid "Widget moved to the left"
+msgstr "Кнопка перемещена влево"
+
+msgid "Widget moved to the right"
+msgstr "Кнопка перемещена вправо"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Размер текста увеличен до %1$s процентов"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Размер текста уменьшен до %1$s процентов"
+
+msgid "Contrast mode off"
+msgstr "Режим контраста выключен"
+
+msgid "Contrast mode: %1$s"
+msgstr "Режим контраста: %1$s"
+
+msgid "Default font restored"
+msgstr "Восстановлен шрифт по умолчанию"
+
+msgid "%1$s font enabled"
+msgstr "Включён шрифт: %1$s"
+
+msgid "Link highlighting enabled"
+msgstr "Выделение ссылок включено"
+
+msgid "Link highlighting disabled"
+msgstr "Выделение ссылок выключено"
+
+msgid "Wider text spacing enabled"
+msgstr "Увеличенные интервалы текста включены"
+
+msgid "Wider text spacing disabled"
+msgstr "Увеличенные интервалы текста выключены"
+
+msgid "Stop animations enabled"
+msgstr "Анимации остановлены"
+
+msgid "Stop animations disabled"
+msgstr "Анимации возобновлены"
+
+msgid "Large cursor enabled"
+msgstr "Крупный курсор включён"
+
+msgid "Large cursor disabled"
+msgstr "Крупный курсор выключен"

@@ -1,0 +1,224 @@
+# Italian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Opzioni di Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Attiva la dimensione del testo"
+
+msgid "Allow users to scale UI text size."
+msgstr "Consenti agli utenti di modificare la dimensione del testo."
+
+msgid "Enable Contrast Modes"
+msgstr "Attiva le modalità di contrasto"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Consenti agli utenti di attivare il contrasto elevato, l'inversione dei colori o la scala di grigi."
+
+msgid "Enable Link Highlighting"
+msgstr "Attiva l'evidenziazione dei link"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Consenti agli utenti di evidenziare i link cliccabili."
+
+msgid "Enable Font Options"
+msgstr "Attiva le opzioni dei caratteri"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Consenti agli utenti di passare a un carattere più leggibile (Atkinson Hyperlegible) o adatto alla dislessia (OpenDyslexic)."
+
+msgid "Enable Text Spacing"
+msgstr "Attiva la spaziatura del testo"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Consenti agli utenti di aumentare l'interlinea e la spaziatura tra lettere e parole (valori del criterio WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Attiva l'arresto delle animazioni"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Consenti agli utenti di fermare animazioni, transizioni e altri contenuti in movimento."
+
+msgid "Enable Big Cursor"
+msgstr "Attiva il cursore grande"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Consenti agli utenti di ingrandire il puntatore del mouse (nascosto sugli schermi touch)."
+
+msgid "Default Widget Position"
+msgstr "Posizione predefinita del pulsante"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Scegli l'angolo in cui appare inizialmente il pulsante di accessibilità."
+
+msgid "Bottom Right"
+msgstr "In basso a destra"
+
+msgid "Bottom Left"
+msgstr "In basso a sinistra"
+
+msgid "Accessibility Options"
+msgstr "Opzioni di accessibilità"
+
+msgid "Accessibility Settings Panel"
+msgstr "Pannello delle impostazioni di accessibilità"
+
+msgid "Accessibility"
+msgstr "Accessibilità"
+
+msgid "Move widget to left"
+msgstr "Sposta il pulsante a sinistra"
+
+msgid "Move widget to right"
+msgstr "Sposta il pulsante a destra"
+
+msgid "Close Panel"
+msgstr "Chiudi il pannello"
+
+msgid "Text Size"
+msgstr "Dimensione del testo"
+
+msgid "Decrease text size"
+msgstr "Riduci il testo"
+
+msgid "Increase text size"
+msgstr "Ingrandisci il testo"
+
+msgid "Contrast"
+msgstr "Contrasto"
+
+msgid "Links"
+msgstr "Link"
+
+msgid "Highlight all clickable links"
+msgstr "Evidenzia tutti i link cliccabili"
+
+msgid "Font"
+msgstr "Carattere"
+
+msgid "Spacing"
+msgstr "Spaziatura"
+
+msgid "Wider text spacing"
+msgstr "Testo più spaziato"
+
+msgid "Stop Motion"
+msgstr "Ferma animazioni"
+
+msgid "Stop animations and moving content"
+msgstr "Ferma le animazioni e i contenuti in movimento"
+
+msgid "Big Cursor"
+msgstr "Cursore grande"
+
+msgid "Large mouse pointer"
+msgstr "Puntatore del mouse grande"
+
+msgid "Reset"
+msgstr "Ripristina"
+
+msgid "Reset all tools to default"
+msgstr "Ripristina tutti gli strumenti"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Close Accessibility Panel"
+msgstr "Chiudi il pannello di accessibilità"
+
+msgid "On"
+msgstr "Attivo"
+
+msgid "Off"
+msgstr "Disattivo"
+
+msgid "High"
+msgstr "Elevato"
+
+msgid "Invert"
+msgstr "Invertito"
+
+msgid "Gray"
+msgstr "Grigio"
+
+msgid "Default"
+msgstr "Predefinito"
+
+msgid "Readable"
+msgstr "Leggibile"
+
+msgid "Dyslexic"
+msgstr "Dislessia"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Contrasto: %1$s (clicca per cambiare)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Carattere: %1$s (clicca per cambiare)"
+
+msgid "Accessibility menu opened"
+msgstr "Menu di accessibilità aperto"
+
+msgid "Accessibility menu closed"
+msgstr "Menu di accessibilità chiuso"
+
+msgid "All accessibility settings reset to default"
+msgstr "Tutte le impostazioni di accessibilità sono state ripristinate"
+
+msgid "Widget moved to the left"
+msgstr "Pulsante spostato a sinistra"
+
+msgid "Widget moved to the right"
+msgstr "Pulsante spostato a destra"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Dimensione del testo aumentata al %1$s per cento"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Dimensione del testo ridotta al %1$s per cento"
+
+msgid "Contrast mode off"
+msgstr "Modalità di contrasto disattivata"
+
+msgid "Contrast mode: %1$s"
+msgstr "Modalità di contrasto: %1$s"
+
+msgid "Default font restored"
+msgstr "Carattere predefinito ripristinato"
+
+msgid "%1$s font enabled"
+msgstr "Carattere %1$s attivato"
+
+msgid "Link highlighting enabled"
+msgstr "Evidenziazione dei link attivata"
+
+msgid "Link highlighting disabled"
+msgstr "Evidenziazione dei link disattivata"
+
+msgid "Wider text spacing enabled"
+msgstr "Spaziatura ampia del testo attivata"
+
+msgid "Wider text spacing disabled"
+msgstr "Spaziatura ampia del testo disattivata"
+
+msgid "Stop animations enabled"
+msgstr "Animazioni fermate"
+
+msgid "Stop animations disabled"
+msgstr "Animazioni riattivate"
+
+msgid "Large cursor enabled"
+msgstr "Cursore grande attivato"
+
+msgid "Large cursor disabled"
+msgstr "Cursore grande disattivato"

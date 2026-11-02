@@ -1,0 +1,224 @@
+# Korean translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: ko-KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus 옵션"
+
+msgid "Enable Text Scaling"
+msgstr "글자 크기 조절 사용"
+
+msgid "Allow users to scale UI text size."
+msgstr "사용자가 글자 크기를 바꿀 수 있게 합니다."
+
+msgid "Enable Contrast Modes"
+msgstr "대비 모드 사용"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "사용자가 고대비, 색상 반전 또는 흑백 모드를 켤 수 있게 합니다."
+
+msgid "Enable Link Highlighting"
+msgstr "링크 강조 사용"
+
+msgid "Allow users to highlight clickable links."
+msgstr "사용자가 클릭할 수 있는 링크를 강조할 수 있게 합니다."
+
+msgid "Enable Font Options"
+msgstr "글꼴 옵션 사용"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "사용자가 더 읽기 쉬운 글꼴(Atkinson Hyperlegible)이나 난독증에 맞춘 글꼴(OpenDyslexic)로 바꿀 수 있게 합니다."
+
+msgid "Enable Text Spacing"
+msgstr "글자 간격 사용"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "사용자가 줄 간격, 자간, 단어 간격을 넓힐 수 있게 합니다(WCAG 1.4.12 기준값)."
+
+msgid "Enable Stop Motion"
+msgstr "움직임 멈춤 사용"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "사용자가 애니메이션, 전환 효과 및 기타 움직이는 콘텐츠를 멈출 수 있게 합니다."
+
+msgid "Enable Big Cursor"
+msgstr "큰 커서 사용"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "사용자가 마우스 포인터를 크게 할 수 있게 합니다(터치스크린에서는 숨김)."
+
+msgid "Default Widget Position"
+msgstr "버튼 기본 위치"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "접근성 버튼이 처음 나타날 모서리를 선택하세요."
+
+msgid "Bottom Right"
+msgstr "오른쪽 아래"
+
+msgid "Bottom Left"
+msgstr "왼쪽 아래"
+
+msgid "Accessibility Options"
+msgstr "접근성 옵션"
+
+msgid "Accessibility Settings Panel"
+msgstr "접근성 설정 패널"
+
+msgid "Accessibility"
+msgstr "접근성"
+
+msgid "Move widget to left"
+msgstr "버튼을 왼쪽으로 이동"
+
+msgid "Move widget to right"
+msgstr "버튼을 오른쪽으로 이동"
+
+msgid "Close Panel"
+msgstr "패널 닫기"
+
+msgid "Text Size"
+msgstr "글자 크기"
+
+msgid "Decrease text size"
+msgstr "글자 작게"
+
+msgid "Increase text size"
+msgstr "글자 크게"
+
+msgid "Contrast"
+msgstr "대비"
+
+msgid "Links"
+msgstr "링크"
+
+msgid "Highlight all clickable links"
+msgstr "클릭할 수 있는 모든 링크 강조"
+
+msgid "Font"
+msgstr "글꼴"
+
+msgid "Spacing"
+msgstr "간격"
+
+msgid "Wider text spacing"
+msgstr "넓은 글자 간격"
+
+msgid "Stop Motion"
+msgstr "움직임 멈춤"
+
+msgid "Stop animations and moving content"
+msgstr "애니메이션과 움직이는 콘텐츠 멈추기"
+
+msgid "Big Cursor"
+msgstr "큰 커서"
+
+msgid "Large mouse pointer"
+msgstr "큰 마우스 포인터"
+
+msgid "Reset"
+msgstr "초기화"
+
+msgid "Reset all tools to default"
+msgstr "모든 도구를 기본값으로 되돌리기"
+
+msgid "Close"
+msgstr "닫기"
+
+msgid "Close Accessibility Panel"
+msgstr "접근성 패널 닫기"
+
+msgid "On"
+msgstr "켜짐"
+
+msgid "Off"
+msgstr "꺼짐"
+
+msgid "High"
+msgstr "높음"
+
+msgid "Invert"
+msgstr "반전"
+
+msgid "Gray"
+msgstr "흑백"
+
+msgid "Default"
+msgstr "기본"
+
+msgid "Readable"
+msgstr "읽기 쉬움"
+
+msgid "Dyslexic"
+msgstr "난독증"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "대비: %1$s (클릭하여 변경)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "글꼴: %1$s (클릭하여 변경)"
+
+msgid "Accessibility menu opened"
+msgstr "접근성 메뉴가 열렸습니다"
+
+msgid "Accessibility menu closed"
+msgstr "접근성 메뉴가 닫혔습니다"
+
+msgid "All accessibility settings reset to default"
+msgstr "모든 접근성 설정이 기본값으로 초기화되었습니다"
+
+msgid "Widget moved to the left"
+msgstr "버튼을 왼쪽으로 옮겼습니다"
+
+msgid "Widget moved to the right"
+msgstr "버튼을 오른쪽으로 옮겼습니다"
+
+msgid "Text size increased to %1$s percent"
+msgstr "글자 크기를 %1$s퍼센트로 키웠습니다"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "글자 크기를 %1$s퍼센트로 줄였습니다"
+
+msgid "Contrast mode off"
+msgstr "대비 모드가 꺼졌습니다"
+
+msgid "Contrast mode: %1$s"
+msgstr "대비 모드: %1$s"
+
+msgid "Default font restored"
+msgstr "기본 글꼴로 되돌렸습니다"
+
+msgid "%1$s font enabled"
+msgstr "%1$s 글꼴이 켜졌습니다"
+
+msgid "Link highlighting enabled"
+msgstr "링크 강조가 켜졌습니다"
+
+msgid "Link highlighting disabled"
+msgstr "링크 강조가 꺼졌습니다"
+
+msgid "Wider text spacing enabled"
+msgstr "넓은 글자 간격이 켜졌습니다"
+
+msgid "Wider text spacing disabled"
+msgstr "넓은 글자 간격이 꺼졌습니다"
+
+msgid "Stop animations enabled"
+msgstr "애니메이션이 멈췄습니다"
+
+msgid "Stop animations disabled"
+msgstr "애니메이션이 다시 시작되었습니다"
+
+msgid "Large cursor enabled"
+msgstr "큰 커서가 켜졌습니다"
+
+msgid "Large cursor disabled"
+msgstr "큰 커서가 꺼졌습니다"

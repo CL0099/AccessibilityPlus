@@ -1,0 +1,224 @@
+# Bulgarian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: bg-BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Настройки на Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Разрешаване на размера на текста"
+
+msgid "Allow users to scale UI text size."
+msgstr "Позволява на потребителите да променят размера на текста."
+
+msgid "Enable Contrast Modes"
+msgstr "Разрешаване на режимите на контраст"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Позволява на потребителите да включват висок контраст, обърнати цветове или нюанси на сивото."
+
+msgid "Enable Link Highlighting"
+msgstr "Разрешаване на открояването на връзки"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Позволява на потребителите да откроят връзките, върху които може да се щраква."
+
+msgid "Enable Font Options"
+msgstr "Разрешаване на настройките на шрифта"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Позволява на потребителите да преминат към по-четлив шрифт (Atkinson Hyperlegible) или шрифт, подходящ при дислексия (OpenDyslexic)."
+
+msgid "Enable Text Spacing"
+msgstr "Разрешаване на разстоянието в текста"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Позволява на потребителите да увеличат разстоянието между редовете, буквите и думите (стойности по WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Разрешаване на спирането на движението"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Позволява на потребителите да спират анимации, преходи и друго движещо се съдържание."
+
+msgid "Enable Big Cursor"
+msgstr "Разрешаване на голям курсор"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Позволява на потребителите да уголемят показалеца на мишката (скрито на сензорни екрани)."
+
+msgid "Default Widget Position"
+msgstr "Позиция на бутона по подразбиране"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Изберете ъгъла, в който първоначално се показва бутонът за достъпност."
+
+msgid "Bottom Right"
+msgstr "Долу вдясно"
+
+msgid "Bottom Left"
+msgstr "Долу вляво"
+
+msgid "Accessibility Options"
+msgstr "Настройки за достъпност"
+
+msgid "Accessibility Settings Panel"
+msgstr "Панел с настройки за достъпност"
+
+msgid "Accessibility"
+msgstr "Достъпност"
+
+msgid "Move widget to left"
+msgstr "Преместване на бутона наляво"
+
+msgid "Move widget to right"
+msgstr "Преместване на бутона надясно"
+
+msgid "Close Panel"
+msgstr "Затваряне на панела"
+
+msgid "Text Size"
+msgstr "Размер на текста"
+
+msgid "Decrease text size"
+msgstr "Намаляване на текста"
+
+msgid "Increase text size"
+msgstr "Увеличаване на текста"
+
+msgid "Contrast"
+msgstr "Контраст"
+
+msgid "Links"
+msgstr "Връзки"
+
+msgid "Highlight all clickable links"
+msgstr "Открояване на всички връзки"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Spacing"
+msgstr "Разстояние"
+
+msgid "Wider text spacing"
+msgstr "По-голямо разстояние в текста"
+
+msgid "Stop Motion"
+msgstr "Спиране на движението"
+
+msgid "Stop animations and moving content"
+msgstr "Спиране на анимациите и движещото се съдържание"
+
+msgid "Big Cursor"
+msgstr "Голям курсор"
+
+msgid "Large mouse pointer"
+msgstr "Голям показалец на мишката"
+
+msgid "Reset"
+msgstr "Нулиране"
+
+msgid "Reset all tools to default"
+msgstr "Връщане на всички инструменти по подразбиране"
+
+msgid "Close"
+msgstr "Затваряне"
+
+msgid "Close Accessibility Panel"
+msgstr "Затваряне на панела за достъпност"
+
+msgid "On"
+msgstr "Вкл."
+
+msgid "Off"
+msgstr "Изкл."
+
+msgid "High"
+msgstr "Висок"
+
+msgid "Invert"
+msgstr "Обърнат"
+
+msgid "Gray"
+msgstr "Сив"
+
+msgid "Default"
+msgstr "По подразбиране"
+
+msgid "Readable"
+msgstr "Четлив"
+
+msgid "Dyslexic"
+msgstr "Дислексия"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Контраст: %1$s (щракнете за промяна)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Шрифт: %1$s (щракнете за промяна)"
+
+msgid "Accessibility menu opened"
+msgstr "Менюто за достъпност е отворено"
+
+msgid "Accessibility menu closed"
+msgstr "Менюто за достъпност е затворено"
+
+msgid "All accessibility settings reset to default"
+msgstr "Всички настройки за достъпност са нулирани"
+
+msgid "Widget moved to the left"
+msgstr "Бутонът е преместен наляво"
+
+msgid "Widget moved to the right"
+msgstr "Бутонът е преместен надясно"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Размерът на текста е увеличен на %1$s процента"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Размерът на текста е намален на %1$s процента"
+
+msgid "Contrast mode off"
+msgstr "Режимът на контраст е изключен"
+
+msgid "Contrast mode: %1$s"
+msgstr "Режим на контраст: %1$s"
+
+msgid "Default font restored"
+msgstr "Шрифтът по подразбиране е възстановен"
+
+msgid "%1$s font enabled"
+msgstr "Включен шрифт: %1$s"
+
+msgid "Link highlighting enabled"
+msgstr "Открояването на връзки е включено"
+
+msgid "Link highlighting disabled"
+msgstr "Открояването на връзки е изключено"
+
+msgid "Wider text spacing enabled"
+msgstr "По-голямото разстояние в текста е включено"
+
+msgid "Wider text spacing disabled"
+msgstr "По-голямото разстояние в текста е изключено"
+
+msgid "Stop animations enabled"
+msgstr "Анимациите са спрени"
+
+msgid "Stop animations disabled"
+msgstr "Анимациите са възобновени"
+
+msgid "Large cursor enabled"
+msgstr "Големият курсор е включен"
+
+msgid "Large cursor disabled"
+msgstr "Големият курсор е изключен"

@@ -1,0 +1,224 @@
+# Estonian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plusi valikud"
+
+msgid "Enable Text Scaling"
+msgstr "Luba teksti suuruse muutmine"
+
+msgid "Allow users to scale UI text size."
+msgstr "Luba kasutajatel teksti suurust muuta."
+
+msgid "Enable Contrast Modes"
+msgstr "Luba kontrastirežiimid"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Luba kasutajatel lülitada sisse kõrge kontrast, pööratud värvid või halltoonid."
+
+msgid "Enable Link Highlighting"
+msgstr "Luba linkide esiletõstmine"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Luba kasutajatel klõpsatavaid linke esile tõsta."
+
+msgid "Enable Font Options"
+msgstr "Luba fondivalikud"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Luba kasutajatel lülituda paremini loetavale (Atkinson Hyperlegible) või düsleksiasõbralikule (OpenDyslexic) fondile."
+
+msgid "Enable Text Spacing"
+msgstr "Luba tekstivahed"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Luba kasutajatel suurendada rea-, tähe- ja sõnavahet (WCAG 1.4.12 väärtused)."
+
+msgid "Enable Stop Motion"
+msgstr "Luba liikumise peatamine"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Luba kasutajatel peatada animatsioonid, üleminekud ja muu liikuv sisu."
+
+msgid "Enable Big Cursor"
+msgstr "Luba suur kursor"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Luba kasutajatel hiirekursorit suurendada (puuteekraanidel peidetud)."
+
+msgid "Default Widget Position"
+msgstr "Nupu vaikeasukoht"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Vali nurk, kus ligipääsetavuse nupp algul kuvatakse."
+
+msgid "Bottom Right"
+msgstr "All paremal"
+
+msgid "Bottom Left"
+msgstr "All vasakul"
+
+msgid "Accessibility Options"
+msgstr "Ligipääsetavuse valikud"
+
+msgid "Accessibility Settings Panel"
+msgstr "Ligipääsetavuse seadete paneel"
+
+msgid "Accessibility"
+msgstr "Ligipääsetavus"
+
+msgid "Move widget to left"
+msgstr "Liiguta nupp vasakule"
+
+msgid "Move widget to right"
+msgstr "Liiguta nupp paremale"
+
+msgid "Close Panel"
+msgstr "Sulge paneel"
+
+msgid "Text Size"
+msgstr "Teksti suurus"
+
+msgid "Decrease text size"
+msgstr "Vähenda teksti"
+
+msgid "Increase text size"
+msgstr "Suurenda teksti"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Links"
+msgstr "Lingid"
+
+msgid "Highlight all clickable links"
+msgstr "Tõsta kõik klõpsatavad lingid esile"
+
+msgid "Font"
+msgstr "Font"
+
+msgid "Spacing"
+msgstr "Vahed"
+
+msgid "Wider text spacing"
+msgstr "Suuremad tekstivahed"
+
+msgid "Stop Motion"
+msgstr "Peata liikumine"
+
+msgid "Stop animations and moving content"
+msgstr "Peata animatsioonid ja liikuv sisu"
+
+msgid "Big Cursor"
+msgstr "Suur kursor"
+
+msgid "Large mouse pointer"
+msgstr "Suur hiirekursor"
+
+msgid "Reset"
+msgstr "Lähtesta"
+
+msgid "Reset all tools to default"
+msgstr "Lähtesta kõik tööriistad"
+
+msgid "Close"
+msgstr "Sulge"
+
+msgid "Close Accessibility Panel"
+msgstr "Sulge ligipääsetavuse paneel"
+
+msgid "On"
+msgstr "Sees"
+
+msgid "Off"
+msgstr "Väljas"
+
+msgid "High"
+msgstr "Kõrge"
+
+msgid "Invert"
+msgstr "Pööratud"
+
+msgid "Gray"
+msgstr "Hall"
+
+msgid "Default"
+msgstr "Vaikimisi"
+
+msgid "Readable"
+msgstr "Loetav"
+
+msgid "Dyslexic"
+msgstr "Düsleksia"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Kontrast: %1$s (klõpsa muutmiseks)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Font: %1$s (klõpsa muutmiseks)"
+
+msgid "Accessibility menu opened"
+msgstr "Ligipääsetavuse menüü avatud"
+
+msgid "Accessibility menu closed"
+msgstr "Ligipääsetavuse menüü suletud"
+
+msgid "All accessibility settings reset to default"
+msgstr "Kõik ligipääsetavuse seaded on lähtestatud"
+
+msgid "Widget moved to the left"
+msgstr "Nupp liigutati vasakule"
+
+msgid "Widget moved to the right"
+msgstr "Nupp liigutati paremale"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Teksti suurus suurendati %1$s protsendini"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Teksti suurus vähendati %1$s protsendini"
+
+msgid "Contrast mode off"
+msgstr "Kontrastirežiim väljas"
+
+msgid "Contrast mode: %1$s"
+msgstr "Kontrastirežiim: %1$s"
+
+msgid "Default font restored"
+msgstr "Vaikefont taastatud"
+
+msgid "%1$s font enabled"
+msgstr "Font %1$s sisse lülitatud"
+
+msgid "Link highlighting enabled"
+msgstr "Linkide esiletõstmine sees"
+
+msgid "Link highlighting disabled"
+msgstr "Linkide esiletõstmine väljas"
+
+msgid "Wider text spacing enabled"
+msgstr "Suuremad tekstivahed sees"
+
+msgid "Wider text spacing disabled"
+msgstr "Suuremad tekstivahed väljas"
+
+msgid "Stop animations enabled"
+msgstr "Animatsioonid peatatud"
+
+msgid "Stop animations disabled"
+msgstr "Animatsioonid taas käivitatud"
+
+msgid "Large cursor enabled"
+msgstr "Suur kursor sees"
+
+msgid "Large cursor disabled"
+msgstr "Suur kursor väljas"

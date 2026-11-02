@@ -1,0 +1,224 @@
+# Romanian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Opțiuni Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Activează mărimea textului"
+
+msgid "Allow users to scale UI text size."
+msgstr "Permite utilizatorilor să modifice mărimea textului."
+
+msgid "Enable Contrast Modes"
+msgstr "Activează modurile de contrast"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Permite utilizatorilor să activeze contrastul ridicat, culorile inversate sau tonurile de gri."
+
+msgid "Enable Link Highlighting"
+msgstr "Activează evidențierea linkurilor"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Permite utilizatorilor să evidențieze linkurile pe care se poate da clic."
+
+msgid "Enable Font Options"
+msgstr "Activează opțiunile de font"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Permite utilizatorilor să treacă la un font mai lizibil (Atkinson Hyperlegible) sau potrivit pentru dislexie (OpenDyslexic)."
+
+msgid "Enable Text Spacing"
+msgstr "Activează spațierea textului"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Permite utilizatorilor să mărească spațiile dintre rânduri, litere și cuvinte (valori conform WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Activează oprirea mișcării"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Permite utilizatorilor să oprească animațiile, tranzițiile și alt conținut în mișcare."
+
+msgid "Enable Big Cursor"
+msgstr "Activează cursorul mare"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Permite utilizatorilor să mărească indicatorul mouse-ului (ascuns pe ecranele tactile)."
+
+msgid "Default Widget Position"
+msgstr "Poziția implicită a butonului"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Alegeți colțul în care apare inițial butonul de accesibilitate."
+
+msgid "Bottom Right"
+msgstr "Dreapta jos"
+
+msgid "Bottom Left"
+msgstr "Stânga jos"
+
+msgid "Accessibility Options"
+msgstr "Opțiuni de accesibilitate"
+
+msgid "Accessibility Settings Panel"
+msgstr "Panou de setări de accesibilitate"
+
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+msgid "Move widget to left"
+msgstr "Mută butonul la stânga"
+
+msgid "Move widget to right"
+msgstr "Mută butonul la dreapta"
+
+msgid "Close Panel"
+msgstr "Închide panoul"
+
+msgid "Text Size"
+msgstr "Mărimea textului"
+
+msgid "Decrease text size"
+msgstr "Micșorează textul"
+
+msgid "Increase text size"
+msgstr "Mărește textul"
+
+msgid "Contrast"
+msgstr "Contrast"
+
+msgid "Links"
+msgstr "Linkuri"
+
+msgid "Highlight all clickable links"
+msgstr "Evidențiază toate linkurile"
+
+msgid "Font"
+msgstr "Font"
+
+msgid "Spacing"
+msgstr "Spațiere"
+
+msgid "Wider text spacing"
+msgstr "Spațiere mai mare a textului"
+
+msgid "Stop Motion"
+msgstr "Oprește mișcarea"
+
+msgid "Stop animations and moving content"
+msgstr "Oprește animațiile și conținutul în mișcare"
+
+msgid "Big Cursor"
+msgstr "Cursor mare"
+
+msgid "Large mouse pointer"
+msgstr "Indicator mare al mouse-ului"
+
+msgid "Reset"
+msgstr "Resetează"
+
+msgid "Reset all tools to default"
+msgstr "Resetează toate instrumentele"
+
+msgid "Close"
+msgstr "Închide"
+
+msgid "Close Accessibility Panel"
+msgstr "Închide panoul de accesibilitate"
+
+msgid "On"
+msgstr "Activat"
+
+msgid "Off"
+msgstr "Dezactivat"
+
+msgid "High"
+msgstr "Ridicat"
+
+msgid "Invert"
+msgstr "Inversat"
+
+msgid "Gray"
+msgstr "Gri"
+
+msgid "Default"
+msgstr "Implicit"
+
+msgid "Readable"
+msgstr "Lizibil"
+
+msgid "Dyslexic"
+msgstr "Dislexie"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Contrast: %1$s (clic pentru a schimba)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Font: %1$s (clic pentru a schimba)"
+
+msgid "Accessibility menu opened"
+msgstr "Meniul de accesibilitate a fost deschis"
+
+msgid "Accessibility menu closed"
+msgstr "Meniul de accesibilitate a fost închis"
+
+msgid "All accessibility settings reset to default"
+msgstr "Toate setările de accesibilitate au fost resetate"
+
+msgid "Widget moved to the left"
+msgstr "Butonul a fost mutat la stânga"
+
+msgid "Widget moved to the right"
+msgstr "Butonul a fost mutat la dreapta"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Mărimea textului a crescut la %1$s la sută"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Mărimea textului a scăzut la %1$s la sută"
+
+msgid "Contrast mode off"
+msgstr "Modul de contrast dezactivat"
+
+msgid "Contrast mode: %1$s"
+msgstr "Modul de contrast: %1$s"
+
+msgid "Default font restored"
+msgstr "Fontul implicit a fost restabilit"
+
+msgid "%1$s font enabled"
+msgstr "Fontul %1$s a fost activat"
+
+msgid "Link highlighting enabled"
+msgstr "Evidențierea linkurilor activată"
+
+msgid "Link highlighting disabled"
+msgstr "Evidențierea linkurilor dezactivată"
+
+msgid "Wider text spacing enabled"
+msgstr "Spațierea mare a textului activată"
+
+msgid "Wider text spacing disabled"
+msgstr "Spațierea mare a textului dezactivată"
+
+msgid "Stop animations enabled"
+msgstr "Animațiile au fost oprite"
+
+msgid "Stop animations disabled"
+msgstr "Animațiile au fost reluate"
+
+msgid "Large cursor enabled"
+msgstr "Cursorul mare activat"
+
+msgid "Large cursor disabled"
+msgstr "Cursorul mare dezactivat"

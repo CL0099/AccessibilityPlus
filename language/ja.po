@@ -1,0 +1,224 @@
+# Japanese translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Accessibility Plus のオプション"
+
+msgid "Enable Text Scaling"
+msgstr "文字サイズの変更を有効にする"
+
+msgid "Allow users to scale UI text size."
+msgstr "利用者が文字サイズを変更できるようにします。"
+
+msgid "Enable Contrast Modes"
+msgstr "コントラストモードを有効にする"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "利用者がハイコントラスト、色の反転、グレースケールに切り替えられるようにします。"
+
+msgid "Enable Link Highlighting"
+msgstr "リンクの強調表示を有効にする"
+
+msgid "Allow users to highlight clickable links."
+msgstr "利用者がクリックできるリンクを強調表示できるようにします。"
+
+msgid "Enable Font Options"
+msgstr "フォントの選択を有効にする"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "利用者が読みやすいフォント（Atkinson Hyperlegible）またはディスレクシア向けフォント（OpenDyslexic）に切り替えられるようにします。"
+
+msgid "Enable Text Spacing"
+msgstr "文字間隔の調整を有効にする"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "利用者が行間・文字間隔・単語間隔を広げられるようにします（WCAG 1.4.12 の値）。"
+
+msgid "Enable Stop Motion"
+msgstr "動きの停止を有効にする"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "利用者がアニメーション、トランジション、その他の動くコンテンツを停止できるようにします。"
+
+msgid "Enable Big Cursor"
+msgstr "大きなカーソルを有効にする"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "利用者がマウスポインターを拡大できるようにします（タッチスクリーンでは非表示）。"
+
+msgid "Default Widget Position"
+msgstr "ボタンの初期位置"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "アクセシビリティボタンを最初に表示する隅を選択してください。"
+
+msgid "Bottom Right"
+msgstr "右下"
+
+msgid "Bottom Left"
+msgstr "左下"
+
+msgid "Accessibility Options"
+msgstr "アクセシビリティのオプション"
+
+msgid "Accessibility Settings Panel"
+msgstr "アクセシビリティ設定パネル"
+
+msgid "Accessibility"
+msgstr "アクセシビリティ"
+
+msgid "Move widget to left"
+msgstr "ボタンを左に移動"
+
+msgid "Move widget to right"
+msgstr "ボタンを右に移動"
+
+msgid "Close Panel"
+msgstr "パネルを閉じる"
+
+msgid "Text Size"
+msgstr "文字サイズ"
+
+msgid "Decrease text size"
+msgstr "文字を小さくする"
+
+msgid "Increase text size"
+msgstr "文字を大きくする"
+
+msgid "Contrast"
+msgstr "コントラスト"
+
+msgid "Links"
+msgstr "リンク"
+
+msgid "Highlight all clickable links"
+msgstr "クリックできるリンクをすべて強調表示"
+
+msgid "Font"
+msgstr "フォント"
+
+msgid "Spacing"
+msgstr "間隔"
+
+msgid "Wider text spacing"
+msgstr "文字間隔を広げる"
+
+msgid "Stop Motion"
+msgstr "動きを止める"
+
+msgid "Stop animations and moving content"
+msgstr "アニメーションと動くコンテンツを停止"
+
+msgid "Big Cursor"
+msgstr "大きなカーソル"
+
+msgid "Large mouse pointer"
+msgstr "大きなマウスポインター"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Reset all tools to default"
+msgstr "すべてのツールを初期状態に戻す"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Close Accessibility Panel"
+msgstr "アクセシビリティパネルを閉じる"
+
+msgid "On"
+msgstr "オン"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "High"
+msgstr "高"
+
+msgid "Invert"
+msgstr "反転"
+
+msgid "Gray"
+msgstr "グレー"
+
+msgid "Default"
+msgstr "標準"
+
+msgid "Readable"
+msgstr "読みやすい"
+
+msgid "Dyslexic"
+msgstr "ディスレクシア"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "コントラスト: %1$s（クリックで変更）"
+
+msgid "Font: %1$s (click to change)"
+msgstr "フォント: %1$s（クリックで変更）"
+
+msgid "Accessibility menu opened"
+msgstr "アクセシビリティメニューを開きました"
+
+msgid "Accessibility menu closed"
+msgstr "アクセシビリティメニューを閉じました"
+
+msgid "All accessibility settings reset to default"
+msgstr "すべてのアクセシビリティ設定を初期状態に戻しました"
+
+msgid "Widget moved to the left"
+msgstr "ボタンを左に移動しました"
+
+msgid "Widget moved to the right"
+msgstr "ボタンを右に移動しました"
+
+msgid "Text size increased to %1$s percent"
+msgstr "文字サイズを %1$s パーセントに拡大しました"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "文字サイズを %1$s パーセントに縮小しました"
+
+msgid "Contrast mode off"
+msgstr "コントラストモードをオフにしました"
+
+msgid "Contrast mode: %1$s"
+msgstr "コントラストモード: %1$s"
+
+msgid "Default font restored"
+msgstr "標準のフォントに戻しました"
+
+msgid "%1$s font enabled"
+msgstr "%1$s フォントをオンにしました"
+
+msgid "Link highlighting enabled"
+msgstr "リンクの強調表示をオンにしました"
+
+msgid "Link highlighting disabled"
+msgstr "リンクの強調表示をオフにしました"
+
+msgid "Wider text spacing enabled"
+msgstr "文字間隔の拡大をオンにしました"
+
+msgid "Wider text spacing disabled"
+msgstr "文字間隔の拡大をオフにしました"
+
+msgid "Stop animations enabled"
+msgstr "アニメーションを停止しました"
+
+msgid "Stop animations disabled"
+msgstr "アニメーションを再開しました"
+
+msgid "Large cursor enabled"
+msgstr "大きなカーソルをオンにしました"
+
+msgid "Large cursor disabled"
+msgstr "大きなカーソルをオフにしました"

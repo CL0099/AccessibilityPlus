@@ -1,0 +1,224 @@
+# Ukrainian translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Параметри Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Увімкнути зміну розміру тексту"
+
+msgid "Allow users to scale UI text size."
+msgstr "Дозволити користувачам змінювати розмір тексту."
+
+msgid "Enable Contrast Modes"
+msgstr "Увімкнути режими контрасту"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Дозволити користувачам вмикати високий контраст, інверсію кольорів або відтінки сірого."
+
+msgid "Enable Link Highlighting"
+msgstr "Увімкнути виділення посилань"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Дозволити користувачам виділяти посилання, на які можна натиснути."
+
+msgid "Enable Font Options"
+msgstr "Увімкнути вибір шрифту"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Дозволити користувачам переходити на розбірливіший шрифт (Atkinson Hyperlegible) або шрифт для людей із дислексією (OpenDyslexic)."
+
+msgid "Enable Text Spacing"
+msgstr "Увімкнути інтервали тексту"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Дозволити користувачам збільшувати міжрядковий, міжлітерний і міжслівний інтервали (значення за WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Увімкнути зупинку руху"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Дозволити користувачам зупиняти анімації, переходи та інший рухомий вміст."
+
+msgid "Enable Big Cursor"
+msgstr "Увімкнути великий курсор"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Дозволити користувачам збільшувати вказівник миші (приховано на сенсорних екранах)."
+
+msgid "Default Widget Position"
+msgstr "Типове розташування кнопки"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Виберіть кут, у якому кнопка доступності з'являється спочатку."
+
+msgid "Bottom Right"
+msgstr "Праворуч унизу"
+
+msgid "Bottom Left"
+msgstr "Ліворуч унизу"
+
+msgid "Accessibility Options"
+msgstr "Параметри доступності"
+
+msgid "Accessibility Settings Panel"
+msgstr "Панель налаштувань доступності"
+
+msgid "Accessibility"
+msgstr "Доступність"
+
+msgid "Move widget to left"
+msgstr "Перемістити кнопку ліворуч"
+
+msgid "Move widget to right"
+msgstr "Перемістити кнопку праворуч"
+
+msgid "Close Panel"
+msgstr "Закрити панель"
+
+msgid "Text Size"
+msgstr "Розмір тексту"
+
+msgid "Decrease text size"
+msgstr "Зменшити текст"
+
+msgid "Increase text size"
+msgstr "Збільшити текст"
+
+msgid "Contrast"
+msgstr "Контраст"
+
+msgid "Links"
+msgstr "Посилання"
+
+msgid "Highlight all clickable links"
+msgstr "Виділити всі посилання"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Spacing"
+msgstr "Інтервали"
+
+msgid "Wider text spacing"
+msgstr "Збільшені інтервали тексту"
+
+msgid "Stop Motion"
+msgstr "Зупинити рух"
+
+msgid "Stop animations and moving content"
+msgstr "Зупинити анімації та рухомий вміст"
+
+msgid "Big Cursor"
+msgstr "Великий курсор"
+
+msgid "Large mouse pointer"
+msgstr "Великий вказівник миші"
+
+msgid "Reset"
+msgstr "Скинути"
+
+msgid "Reset all tools to default"
+msgstr "Повернути всі інструменти до типових"
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "Close Accessibility Panel"
+msgstr "Закрити панель доступності"
+
+msgid "On"
+msgstr "Увімк."
+
+msgid "Off"
+msgstr "Вимк."
+
+msgid "High"
+msgstr "Високий"
+
+msgid "Invert"
+msgstr "Інверсія"
+
+msgid "Gray"
+msgstr "Сірий"
+
+msgid "Default"
+msgstr "Типовий"
+
+msgid "Readable"
+msgstr "Розбірливий"
+
+msgid "Dyslexic"
+msgstr "Дислексія"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Контраст: %1$s (натисніть, щоб змінити)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Шрифт: %1$s (натисніть, щоб змінити)"
+
+msgid "Accessibility menu opened"
+msgstr "Меню доступності відкрито"
+
+msgid "Accessibility menu closed"
+msgstr "Меню доступності закрито"
+
+msgid "All accessibility settings reset to default"
+msgstr "Усі налаштування доступності скинуто"
+
+msgid "Widget moved to the left"
+msgstr "Кнопку переміщено ліворуч"
+
+msgid "Widget moved to the right"
+msgstr "Кнопку переміщено праворуч"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Розмір тексту збільшено до %1$s відсотків"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Розмір тексту зменшено до %1$s відсотків"
+
+msgid "Contrast mode off"
+msgstr "Режим контрасту вимкнено"
+
+msgid "Contrast mode: %1$s"
+msgstr "Режим контрасту: %1$s"
+
+msgid "Default font restored"
+msgstr "Відновлено типовий шрифт"
+
+msgid "%1$s font enabled"
+msgstr "Увімкнено шрифт: %1$s"
+
+msgid "Link highlighting enabled"
+msgstr "Виділення посилань увімкнено"
+
+msgid "Link highlighting disabled"
+msgstr "Виділення посилань вимкнено"
+
+msgid "Wider text spacing enabled"
+msgstr "Збільшені інтервали тексту увімкнено"
+
+msgid "Wider text spacing disabled"
+msgstr "Збільшені інтервали тексту вимкнено"
+
+msgid "Stop animations enabled"
+msgstr "Анімації зупинено"
+
+msgid "Stop animations disabled"
+msgstr "Анімації відновлено"
+
+msgid "Large cursor enabled"
+msgstr "Великий курсор увімкнено"
+
+msgid "Large cursor disabled"
+msgstr "Великий курсор вимкнено"

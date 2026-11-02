@@ -1,0 +1,224 @@
+# Swedish translation of Accessibility Plus, a module for Omeka S.
+# These translations were machine-generated and haven't yet been checked by a native speaker.
+# If a phrase reads awkwardly or misses a nuance, a correction is warmly welcome:
+# please open an issue or pull request on the module's GitHub repository.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibilityPlus\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Accessibility Plus Options"
+msgstr "Alternativ för Accessibility Plus"
+
+msgid "Enable Text Scaling"
+msgstr "Aktivera textstorlek"
+
+msgid "Allow users to scale UI text size."
+msgstr "Låt användare ändra textstorleken."
+
+msgid "Enable Contrast Modes"
+msgstr "Aktivera kontrastlägen"
+
+msgid "Allow users to toggle high contrast, invert, or grayscale."
+msgstr "Låt användare slå på hög kontrast, inverterade färger eller gråskala."
+
+msgid "Enable Link Highlighting"
+msgstr "Aktivera länkmarkering"
+
+msgid "Allow users to highlight clickable links."
+msgstr "Låt användare markera klickbara länkar."
+
+msgid "Enable Font Options"
+msgstr "Aktivera typsnittsalternativ"
+
+msgid "Allow users to switch to a readable (Atkinson Hyperlegible) or dyslexia (OpenDyslexic) font."
+msgstr "Låt användare byta till ett lättläst (Atkinson Hyperlegible) eller dyslexivänligt (OpenDyslexic) typsnitt."
+
+msgid "Enable Text Spacing"
+msgstr "Aktivera textavstånd"
+
+msgid "Allow users to widen line, letter and word spacing (WCAG 1.4.12 values)."
+msgstr "Låt användare öka rad-, bokstavs- och ordavståndet (värden enligt WCAG 1.4.12)."
+
+msgid "Enable Stop Motion"
+msgstr "Aktivera stoppa rörelse"
+
+msgid "Allow users to stop animations, transitions and other moving content."
+msgstr "Låt användare stoppa animationer, övergångar och annat rörligt innehåll."
+
+msgid "Enable Big Cursor"
+msgstr "Aktivera stor muspekare"
+
+msgid "Allow users to enlarge the mouse pointer (hidden on touch screens)."
+msgstr "Låt användare förstora muspekaren (dold på pekskärmar)."
+
+msgid "Default Widget Position"
+msgstr "Knappens standardposition"
+
+msgid "Select default corner location for the accessibility button."
+msgstr "Välj i vilket hörn tillgänglighetsknappen visas från början."
+
+msgid "Bottom Right"
+msgstr "Nere till höger"
+
+msgid "Bottom Left"
+msgstr "Nere till vänster"
+
+msgid "Accessibility Options"
+msgstr "Tillgänglighetsalternativ"
+
+msgid "Accessibility Settings Panel"
+msgstr "Panel för tillgänglighetsinställningar"
+
+msgid "Accessibility"
+msgstr "Tillgänglighet"
+
+msgid "Move widget to left"
+msgstr "Flytta knappen till vänster"
+
+msgid "Move widget to right"
+msgstr "Flytta knappen till höger"
+
+msgid "Close Panel"
+msgstr "Stäng panelen"
+
+msgid "Text Size"
+msgstr "Textstorlek"
+
+msgid "Decrease text size"
+msgstr "Minska textstorleken"
+
+msgid "Increase text size"
+msgstr "Öka textstorleken"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Links"
+msgstr "Länkar"
+
+msgid "Highlight all clickable links"
+msgstr "Markera alla klickbara länkar"
+
+msgid "Font"
+msgstr "Typsnitt"
+
+msgid "Spacing"
+msgstr "Avstånd"
+
+msgid "Wider text spacing"
+msgstr "Större textavstånd"
+
+msgid "Stop Motion"
+msgstr "Stoppa rörelse"
+
+msgid "Stop animations and moving content"
+msgstr "Stoppa animationer och rörligt innehåll"
+
+msgid "Big Cursor"
+msgstr "Stor pekare"
+
+msgid "Large mouse pointer"
+msgstr "Stor muspekare"
+
+msgid "Reset"
+msgstr "Återställ"
+
+msgid "Reset all tools to default"
+msgstr "Återställ alla verktyg"
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "Close Accessibility Panel"
+msgstr "Stäng tillgänglighetspanelen"
+
+msgid "On"
+msgstr "På"
+
+msgid "Off"
+msgstr "Av"
+
+msgid "High"
+msgstr "Hög"
+
+msgid "Invert"
+msgstr "Inverterad"
+
+msgid "Gray"
+msgstr "Grå"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Readable"
+msgstr "Lättläst"
+
+msgid "Dyslexic"
+msgstr "Dyslexi"
+
+msgid "Contrast: %1$s (click to change)"
+msgstr "Kontrast: %1$s (klicka för att ändra)"
+
+msgid "Font: %1$s (click to change)"
+msgstr "Typsnitt: %1$s (klicka för att ändra)"
+
+msgid "Accessibility menu opened"
+msgstr "Tillgänglighetsmenyn öppnad"
+
+msgid "Accessibility menu closed"
+msgstr "Tillgänglighetsmenyn stängd"
+
+msgid "All accessibility settings reset to default"
+msgstr "Alla tillgänglighetsinställningar har återställts"
+
+msgid "Widget moved to the left"
+msgstr "Knappen flyttad till vänster"
+
+msgid "Widget moved to the right"
+msgstr "Knappen flyttad till höger"
+
+msgid "Text size increased to %1$s percent"
+msgstr "Textstorleken ökad till %1$s procent"
+
+msgid "Text size decreased to %1$s percent"
+msgstr "Textstorleken minskad till %1$s procent"
+
+msgid "Contrast mode off"
+msgstr "Kontrastläge av"
+
+msgid "Contrast mode: %1$s"
+msgstr "Kontrastläge: %1$s"
+
+msgid "Default font restored"
+msgstr "Standardtypsnittet återställt"
+
+msgid "%1$s font enabled"
+msgstr "Typsnittet %1$s aktiverat"
+
+msgid "Link highlighting enabled"
+msgstr "Länkmarkering aktiverad"
+
+msgid "Link highlighting disabled"
+msgstr "Länkmarkering avaktiverad"
+
+msgid "Wider text spacing enabled"
+msgstr "Större textavstånd aktiverat"
+
+msgid "Wider text spacing disabled"
+msgstr "Större textavstånd avaktiverat"
+
+msgid "Stop animations enabled"
+msgstr "Animationer stoppade"
+
+msgid "Stop animations disabled"
+msgstr "Animationer återupptagna"
+
+msgid "Large cursor enabled"
+msgstr "Stor muspekare aktiverad"
+
+msgid "Large cursor disabled"
+msgstr "Stor muspekare avaktiverad"
