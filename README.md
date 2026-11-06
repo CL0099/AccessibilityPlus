@@ -164,7 +164,7 @@ Uninstalling the module removes its settings from every site. Visitors' saved ch
 
 ## Support
 
-Accessibility Plus is provided as-is. Bug reports and suggestions are welcome, but support is best effort.
+Accessibility Plus is provided as-is. Your feedback helps make this better for everyone. If you’ve run into an issue or have a suggestion to share, we’d love to hear it! Our volunteer team will do our absolute best to help out.
 
 To report a problem or suggest an idea, open an issue on this repository's **Issues** tab. Please include:
 
