@@ -6,11 +6,11 @@ We put our collections online so that everyone can explore them. But "everyone" 
 
 Accessibility Plus gives these visitors a simple way to make your Omeka S site work for them. A small floating button in the corner of every public page, a blue circle with the universal accessibility symbol, opens a panel where they can enlarge the text, change the contrast, switch to a more readable font, widen the spacing, stop animations or enlarge the mouse pointer. Their choices are remembered and applied on every page they visit, so they only have to set them once.
 
-![The floating accessibility button in the corner of a page](docs/button.png)
+![The floating accessibility button in the corner of a page](https://raw.githubusercontent.com/CL0099/AccessibilityPlus/main/docs/button.png)
 
 **Very little effort is needed to add this.** Install the module and the button appears on every public page straight away: no theme changes, no code, no accounts and no outside services. Choosing which tools to offer on each site takes a minute in the site settings. If you build or maintain your own theme, a few optional tweaks (see [Tips for theme developers](#tips-for-theme-developers)) make it work even better, but nothing is required.
 
-![The accessibility panel open on a site](docs/panel.png)
+![The accessibility panel open on a site](https://raw.githubusercontent.com/CL0099/AccessibilityPlus/main/docs/panel.png)
 
 ## Features
 
@@ -24,22 +24,22 @@ Accessibility Plus gives these visitors a simple way to make your Omeka S site w
 | **Stop Motion** | Stops animations, transitions and smooth scrolling (see [WCAG 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html)). |
 | **Big Cursor** | Enlarges the mouse pointer. Hidden on touch screens. |
 
-- Each tool can be turned on or off per site.
-- The button floats over the page, so it never takes up space in your layout. It always looks the same, a blue circle with the universal accessibility symbol, consistent with other accessibility tools, so visitors who rely on them recognize it straight away. It deliberately doesn't take on your theme's colors.
-- Visitors can move the button to the bottom left or bottom right corner, and reset everything with one click.
-- The panel works with a keyboard (Tab, Enter, Escape) and screen readers announce each change.
-- Saved choices are applied before the page is drawn, so pages don't flash at the default size first.
-- The panel's own animations follow the visitor's system ["reduce motion" setting](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion).
-- The panel uses the site's own fonts.
+* Each tool can be turned on or off per site.
+* The button floats over the page, so it never takes up space in your layout. It always looks the same, a blue circle with the universal accessibility symbol, consistent with other accessibility tools, so visitors who rely on them recognize it straight away. It deliberately doesn't take on your theme's colors.
+* Visitors can move the button to the bottom left or bottom right corner, and reset everything with one click.
+* The panel works with a keyboard (Tab, Enter, Escape) and screen readers announce each change.
+* Saved choices are applied before the page is drawn, so pages don't flash at the default size first.
+* The panel's own animations follow the visitor's system ["reduce motion" setting](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion).
+* The panel uses the site's own fonts.
 
 ## Requirements
 
-- Omeka S 4.0 or later
-- No other modules are needed.
+* Omeka S 4.0 or later
+* No other modules are needed.
 
 ## Installation
 
-1. Download the zip file from the latest [release](../../releases).
+1. Download the zip file from the latest release.
 2. Unzip it into your Omeka S `modules/` folder. The folder must be named exactly `AccessibilityPlus`.
 3. In the Omeka S admin, go to **Modules** and click **Install** next to Accessibility Plus.
 
@@ -51,10 +51,10 @@ The button appears on every public page of every site straight away. Admin pages
 
 For each site, go to **Site admin > Settings** and find the **Accessibility Plus Options** section:
 
-![The Accessibility Plus Options site settings](docs/settings.png)
+![The Accessibility Plus Options site settings](https://raw.githubusercontent.com/CL0099/AccessibilityPlus/main/docs/settings.png)
 
-- **Enable ...**: turn each tool on or off. If every tool is off, the button isn't shown on that site.
-- **Default Widget Position**: the corner the button starts in (bottom right or bottom left). Visitors can still move it.
+* **Enable ...**: turn each tool on or off. If every tool is off, the button isn't shown on that site.
+* **Default Widget Position**: the corner the button starts in (bottom right or bottom left). Visitors can still move it.
 
 ## Privacy
 
@@ -62,16 +62,16 @@ Visitors' choices are stored only in their own browser ([`localStorage`](https:/
 
 **Choices are saved per domain, not per site.** Browsers keep this storage separately for each web address, and all the sites in one Omeka S install share the same address (`/s/site-a/...`, `/s/site-b/...`). So:
 
-- A visitor's choices apply to **every site on the same Omeka S install**: 150% text on one site is 150% on the others too.
-- Installs on **different domains** (for example a test server and a live server) keep separate choices.
-- Each **browser and device** has its own choices; a visitor on another computer starts from the defaults.
-- If a tool is turned off on a site (see [Configuration](#configuration)), the visitor's saved choice for it is ignored on that site but still applies on sites where the tool is on.
+* A visitor's choices apply to **every site on the same Omeka S install**: 150% text on one site is 150% on the others too.
+* Installs on **different domains** (for example a test server and a live server) keep separate choices.
+* Each **browser and device** has its own choices; a visitor on another computer starts from the defaults.
+* If a tool is turned off on a site (see [Configuration](#configuration)), the visitor's saved choice for it is ignored on that site but still applies on sites where the tool is on.
 
 ## Limitations
 
-- This module gives visitors reading preferences. It does not make a site accessible or compliant on its own (for example with the [Web Content Accessibility Guidelines, WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)), and it is not a substitute for accessible content and an accessible theme. Omeka's own [Accessibility Statement](https://omeka.org/s/docs/user-manual/accessibility/) describes how Omeka S approaches accessibility and includes planning tips for building an accessible site; the W3C's [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) is a good place to start.
-- **Text Size** works by changing the page's root font size. Text that your theme sizes in [`rem` or `em`](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units) grows; text sized in `px` doesn't. Most current themes use `rem`/`em`.
-- Contrast and spacing are applied over your theme's own styles, so a few theme elements may need small adjustments. See the tips for theme developers below.
+* This module gives visitors reading preferences. It does not make a site accessible or compliant on its own (for example with the [Web Content Accessibility Guidelines, WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)), and it is not a substitute for accessible content and an accessible theme. Omeka's own [Accessibility Statement](https://omeka.org/s/docs/user-manual/accessibility/) describes how Omeka S approaches accessibility and includes planning tips for building an accessible site; the W3C's [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) is a good place to start.
+* **Text Size** works by changing the page's root font size. Text that your theme sizes in [`rem` or `em`](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units) grows; text sized in `px` doesn't. Most current themes use `rem`/`em`.
+* Contrast and spacing are applied over your theme's own styles, so a few theme elements may need small adjustments. See the tips for theme developers below.
 
 ## Tips for theme developers
 
@@ -116,7 +116,7 @@ The module's own overrides use `!important`, so to change how a tool affects one
 
 When a visitor changes a setting, and once when the page loads, the module fires an `AccessibilityPlus:change` event on `document`. Use it for anything CSS can't do, such as pausing a carousel:
 
-```js
+```javascript
 document.addEventListener('AccessibilityPlus:change', function (event) {
     if (event.detail.motion) {
         myCarousel.pause();
@@ -139,10 +139,10 @@ Because the event also fires on page load, one handler covers both the visitor's
 
 ### What the module leaves alone
 
-- In High contrast and Invert, images, videos, `<canvas>`, `<iframe>`s and image viewers built on [OpenSeadragon](https://openseadragon.github.io/) keep their normal colors, so photographs and documents look as they should. (Grayscale deliberately turns everything gray.)
-- Icon fonts (Font Awesome, Material Icons and anything with `icon` in its class), `code`, `pre` and `kbd` keep their own font, so icons don't turn into letters.
-- [Tabulator](https://tabulator.info/) tables get their own text-size adjustments, because they set font sizes in pixels.
-- Admin pages are never affected.
+* In High contrast and Invert, images, videos, `<canvas>`, `<iframe>`s and image viewers built on [OpenSeadragon](https://openseadragon.github.io/) keep their normal colors, so photographs and documents look as they should. (Grayscale deliberately turns everything gray.)
+* Icon fonts (Font Awesome, Material Icons and anything with `icon` in its class), `code`, `pre` and `kbd` keep their own font, so icons don't turn into letters.
+* [Tabulator](https://tabulator.info/) tables get their own text-size adjustments, because they set font sizes in pixels.
+* Admin pages are never affected.
 
 ## Translations
 
@@ -164,20 +164,20 @@ Uninstalling the module removes its settings from every site. Visitors' saved ch
 
 ## Support
 
-Accessibility Plus is maintained by one volunteer, alongside running a small community archive, and is provided as-is. Bug reports and suggestions are welcome, but support is best effort: replies may take a while, and not every request can be taken on.
+Accessibility Plus is provided as-is. Bug reports and suggestions are welcome, but support is best effort.
 
 To report a problem or suggest an idea, open an issue on this repository's **Issues** tab. Please include:
 
-- the address (URL) of a page where the problem happens, if the site is public,
-- your Omeka S and PHP versions,
-- the theme your site uses,
-- the browser (and device, if it's a phone or tablet),
-- what you did, what you expected, and what happened instead, with any error message or a screenshot.
+* the address (URL) of a page where the problem happens, if the site is public,
+* your Omeka S and PHP versions,
+* the theme your site uses,
+* the browser (and device, if it's a phone or tablet),
+* what you did, what you expected, and what happened instead, with any error message or a screenshot.
 
 Fixes and improvements are welcome as pull requests.
 
 ## License and credits
 
-- The module is licensed under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html) (see [LICENSE](LICENSE)).
-- The module is provided "as is", without warranty of any kind. You use it at your own risk; the authors are not liable for any damages arising from its use (see sections 15–16 of the GPLv3).
-- Atkinson Hyperlegible, © Braille Institute of America, and OpenDyslexic, © Abbie Gonzalez, are included under the [SIL Open Font License 1.1](https://openfontlicense.org/). Their license texts are in `asset/fonts/`.
+* The module is licensed under the [GNU General Public License v3](LICENSE).
+* The module is provided "as is", without warranty of any kind. You use it at your own risk; the authors are not liable for any damages arising from its use (see sections 15–16 of the GPLv3).
+* Atkinson Hyperlegible, © Braille Institute of America, and OpenDyslexic, © Abbie Gonzalez, are included under the [SIL Open Font License 1.1](https://openfontlicense.org/). Their license texts are in `asset/fonts/`.
